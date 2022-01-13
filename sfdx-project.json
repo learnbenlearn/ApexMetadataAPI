@@ -1,0 +1,76 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": false
+    },
+    {
+      "path": "BasicDeclarativeAutomationTypes",
+      "default": false
+    },
+    {
+      "path": "FilterItemType",
+      "default": false 
+    },
+    {
+      "path": "ExperienceSiteTypes",
+      "default": false
+    },
+    {
+      "path": "SettingsTypes",
+      "default": false
+    },
+    {
+      "path": "ObjectMappingTypes",
+      "default": false
+    },
+    {
+      "path": "KnowledgeSettingsTypes",
+      "default": false
+    },
+    {
+      "path": "SecuritySettingsTypes",
+      "default": false
+    },
+    {
+      "path": "FlowTypes",
+      "default": false
+    },
+    {
+      "path": "ConnectedAppTypes",
+      "default": false
+    },
+    {
+      "path": "DataModelTypes",
+      "default": false
+    },
+    {
+      "path": "ActionOverrideType",
+      "default": false
+    },
+    {
+      "path": "SharedToType",
+      "default": false
+    },
+    {
+      "path": "PicklistValueType",
+      "default": false
+    },
+    {
+      "path": "ActionOverrideType",
+      "default": false
+    },
+    {
+      "path": "DataVisualizationTypes",
+      "default": false
+    },
+    {
+      "path": "DeclarativeUserInterfaceTypes",
+      "default": true
+    }
+  ],
+  "name": "OOEDemo",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
+}

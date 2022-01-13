@@ -1,0 +1,30 @@
+public class UserManagementSettings {
+    public Boolean enableCanAnswerContainUsername;
+    public Boolean enableConcealPersonalInfo;
+    public Boolean enableContactlessExternalIdentityUsers;
+    public Boolean enableEnhancedConcealPersonalInfo;
+    public Boolean enableEnhancedPermsetMgmt;
+    public Boolean enableEnhancedProfileMgmt;
+    public Boolean enableNewProfileUI;
+    public Boolean enableProfileFiltering;
+    public Boolean enableRestrictEmailDomains;
+    public Boolean enableScrambleUserData;
+    public Boolean enableUserSelfDeactivate;
+    public Boolean psaExpirationUIEnabled;
+    public Boolean restrictedProfileCloning;
+    private String[] enableCanAnswerContainUsername_type_info = new String[]{'enableCanAnswerContainUsername','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableConcealPersonalInfo_type_info = new String[]{'enableConcealPersonalInfo','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableContactlessExternalIdentityUsers_type_info = new String[]{'enableContactlessExternalIdentityUsers','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableEnhancedConcealPersonalInfo_type_info = new String[]{'enableEnhancedConcealPersonalInfo','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableEnhancedPermsetMgmt_type_info = new String[]{'enableEnhancedPermsetMgmt','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableEnhancedProfileMgmt_type_info = new String[]{'enableEnhancedProfileMgmt','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableNewProfileUI_type_info = new String[]{'enableNewProfileUI','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableProfileFiltering_type_info = new String[]{'enableProfileFiltering','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableRestrictEmailDomains_type_info = new String[]{'enableRestrictEmailDomains','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableScrambleUserData_type_info = new String[]{'enableScrambleUserData','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableUserSelfDeactivate_type_info = new String[]{'enableUserSelfDeactivate','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] psaExpirationUIEnabled_type_info = new String[]{'psaExpirationUIEnabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] restrictedProfileCloning_type_info = new String[]{'restrictedProfileCloning','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'enableCanAnswerContainUsername','enableConcealPersonalInfo','enableContactlessExternalIdentityUsers','enableEnhancedConcealPersonalInfo','enableEnhancedPermsetMgmt','enableEnhancedProfileMgmt','enableNewProfileUI','enableProfileFiltering','enableRestrictEmailDomains','enableScrambleUserData','enableUserSelfDeactivate','psaExpirationUIEnabled','restrictedProfileCloning'};
+}

@@ -1,0 +1,36 @@
+public class Holiday {
+    public Date activityDate;
+    public String[] businessHours;
+    public String description;
+    public DateTime endTime;
+    public Boolean isRecurring;
+    public String name;
+    public Integer recurrenceDayOfMonth;
+    public String[] recurrenceDayOfWeek;
+    public Integer recurrenceDayOfWeekMask;
+    public Date recurrenceEndDate;
+    public String recurrenceInstance;
+    public Integer recurrenceInterval;
+    public String recurrenceMonthOfYear;
+    public Date recurrenceStartDate;
+    public String recurrenceType;
+    public DateTime startTime;
+    private String[] activityDate_type_info = new String[]{'activityDate','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] businessHours_type_info = new String[]{'businessHours','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] endTime_type_info = new String[]{'endTime','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] isRecurring_type_info = new String[]{'isRecurring','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceDayOfMonth_type_info = new String[]{'recurrenceDayOfMonth','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceDayOfWeek_type_info = new String[]{'recurrenceDayOfWeek','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] recurrenceDayOfWeekMask_type_info = new String[]{'recurrenceDayOfWeekMask','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceEndDate_type_info = new String[]{'recurrenceEndDate','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceInstance_type_info = new String[]{'recurrenceInstance','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceInterval_type_info = new String[]{'recurrenceInterval','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceMonthOfYear_type_info = new String[]{'recurrenceMonthOfYear','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceStartDate_type_info = new String[]{'recurrenceStartDate','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] recurrenceType_type_info = new String[]{'recurrenceType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] startTime_type_info = new String[]{'startTime','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'activityDate','businessHours','description','endTime','isRecurring','name','recurrenceDayOfMonth','recurrenceDayOfWeek','recurrenceDayOfWeekMask','recurrenceEndDate','recurrenceInstance','recurrenceInterval','recurrenceMonthOfYear','recurrenceStartDate','recurrenceType','startTime'};
+}

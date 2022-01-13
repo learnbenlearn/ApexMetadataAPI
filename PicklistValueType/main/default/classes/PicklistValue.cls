@@ -1,0 +1,32 @@
+public class PicklistValue {
+    public String color;
+    public Boolean default_x;
+    public String description;
+    public Boolean isActive;
+    public Boolean allowEmail;
+    public Boolean closed;
+    public String[] controllingFieldValues;
+    public Boolean converted;
+    public Boolean cssExposed;
+    public Boolean highPriority;
+    public Integer probability;
+    public String reverseRole;
+    public Boolean reviewed;
+    public Boolean won;
+    private String[] color_type_info = new String[]{'color','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] default_x_type_info = new String[]{'default','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] isActive_type_info = new String[]{'isActive','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] allowEmail_type_info = new String[]{'allowEmail','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] closed_type_info = new String[]{'closed','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] controllingFieldValues_type_info = new String[]{'controllingFieldValues','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] converted_type_info = new String[]{'converted','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] cssExposed_type_info = new String[]{'cssExposed','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] highPriority_type_info = new String[]{'highPriority','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] probability_type_info = new String[]{'probability','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] reverseRole_type_info = new String[]{'reverseRole','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] reviewed_type_info = new String[]{'reviewed','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] won_type_info = new String[]{'won','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'color','default_x','description','isActive','allowEmail','closed','controllingFieldValues','converted','cssExposed','highPriority','probability','reverseRole','reviewed','won'};
+}

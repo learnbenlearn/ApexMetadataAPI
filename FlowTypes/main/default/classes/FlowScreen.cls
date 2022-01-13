@@ -1,0 +1,30 @@
+public class FlowScreen {
+    public Boolean allowBack;
+    public Boolean allowFinish;
+    public Boolean allowPause;
+    public String backButtonLabel;
+    public FlowConnector connector;
+    public FlowScreenField[] fields;
+    public String helpText;
+    public String nextOrFinishButtonLabel;
+    public String pauseButtonLabel;
+    public String pausedText;
+    publicMetadataAPIWrapper.FlowScreenRule[] rules;
+    public Boolean showFooter;
+    public Boolean showHeader;
+    private String[] allowBack_type_info = new String[]{'allowBack','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] allowFinish_type_info = new String[]{'allowFinish','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] allowPause_type_info = new String[]{'allowPause','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] backButtonLabel_type_info = new String[]{'backButtonLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] connector_type_info = new String[]{'connector','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] fields_type_info = new String[]{'fields','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] helpText_type_info = new String[]{'helpText','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] nextOrFinishButtonLabel_type_info = new String[]{'nextOrFinishButtonLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] pauseButtonLabel_type_info = new String[]{'pauseButtonLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] pausedText_type_info = new String[]{'pausedText','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] rules_type_info = new String[]{'rules','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] showFooter_type_info = new String[]{'showFooter','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] showHeader_type_info = new String[]{'showHeader','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'allowBack','allowFinish','allowPause','backButtonLabel','connector','fields','helpText','nextOrFinishButtonLabel','pauseButtonLabel','pausedText','rules','showFooter','showHeader'};
+}

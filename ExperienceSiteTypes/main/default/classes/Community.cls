@@ -1,0 +1,32 @@
+public class Community {
+    public Boolean active;
+    public String chatterAnswersFacebookSsoUrl;
+    public String communityFeedPage;
+    public String dataCategoryName;
+    public String description;
+    public String emailFooterDocument;
+    public String emailHeaderDocument;
+    public String emailNotificationUrl;
+    public Boolean enableChatterAnswers;
+    public Boolean enablePrivateQuestions;
+    public String expertsGroup;
+    public String portal;
+    public Boolean showInPortal;
+    public String site;
+    private String[] active_type_info = new String[]{'active','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] chatterAnswersFacebookSsoUrl_type_info = new String[]{'chatterAnswersFacebookSsoUrl','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] communityFeedPage_type_info = new String[]{'communityFeedPage','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] dataCategoryName_type_info = new String[]{'dataCategoryName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] emailFooterDocument_type_info = new String[]{'emailFooterDocument','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] emailHeaderDocument_type_info = new String[]{'emailHeaderDocument','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] emailNotificationUrl_type_info = new String[]{'emailNotificationUrl','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableChatterAnswers_type_info = new String[]{'enableChatterAnswers','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enablePrivateQuestions_type_info = new String[]{'enablePrivateQuestions','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] expertsGroup_type_info = new String[]{'expertsGroup','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] portal_type_info = new String[]{'portal','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] showInPortal_type_info = new String[]{'showInPortal','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] site_type_info = new String[]{'site','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'active','chatterAnswersFacebookSsoUrl','communityFeedPage','dataCategoryName','description','emailFooterDocument','emailHeaderDocument','emailNotificationUrl','enableChatterAnswers','enablePrivateQuestions','expertsGroup','portal','showInPortal','site'};
+}

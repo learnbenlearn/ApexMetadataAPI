@@ -1,0 +1,32 @@
+public class ApexSettings {
+    public Boolean enableAggregateCodeCoverageOnly;
+    public Boolean enableApexAccessRightsPref;
+    public Boolean enableApexApprovalLockUnlock;
+    public Boolean enableApexCtrlImplicitWithSharingPref;
+    public Boolean enableApexPropertyGetterPref;
+    public Boolean enableAuraApexCtrlAuthUserAccessCheckPref;
+    public Boolean enableAuraApexCtrlGuestUserAccessCheckPref;
+    public Boolean enableCompileOnDeploy;
+    public Boolean enableDisableParallelApexTesting;
+    public Boolean enableDoNotEmailDebugLog;
+    public Boolean enableGaplessTestAutoNum;
+    public Boolean enableMngdCtrlActionAccessPref;
+    public Boolean enableNonCertifiedApexMdCrud;
+    public Boolean enableSecureNoArgConstructorPref;
+    private String[] enableAggregateCodeCoverageOnly_type_info = new String[]{'enableAggregateCodeCoverageOnly','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableApexAccessRightsPref_type_info = new String[]{'enableApexAccessRightsPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableApexApprovalLockUnlock_type_info = new String[]{'enableApexApprovalLockUnlock','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableApexCtrlImplicitWithSharingPref_type_info = new String[]{'enableApexCtrlImplicitWithSharingPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableApexPropertyGetterPref_type_info = new String[]{'enableApexPropertyGetterPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableAuraApexCtrlAuthUserAccessCheckPref_type_info = new String[]{'enableAuraApexCtrlAuthUserAccessCheckPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableAuraApexCtrlGuestUserAccessCheckPref_type_info = new String[]{'enableAuraApexCtrlGuestUserAccessCheckPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableCompileOnDeploy_type_info = new String[]{'enableCompileOnDeploy','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableDisableParallelApexTesting_type_info = new String[]{'enableDisableParallelApexTesting','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableDoNotEmailDebugLog_type_info = new String[]{'enableDoNotEmailDebugLog','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableGaplessTestAutoNum_type_info = new String[]{'enableGaplessTestAutoNum','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableMngdCtrlActionAccessPref_type_info = new String[]{'enableMngdCtrlActionAccessPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableNonCertifiedApexMdCrud_type_info = new String[]{'enableNonCertifiedApexMdCrud','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableSecureNoArgConstructorPref_type_info = new String[]{'enableSecureNoArgConstructorPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'enableAggregateCodeCoverageOnly','enableApexAccessRightsPref','enableApexApprovalLockUnlock','enableApexCtrlImplicitWithSharingPref','enableApexPropertyGetterPref','enableAuraApexCtrlAuthUserAccessCheckPref','enableAuraApexCtrlGuestUserAccessCheckPref','enableCompileOnDeploy','enableDisableParallelApexTesting','enableDoNotEmailDebugLog','enableGaplessTestAutoNum','enableMngdCtrlActionAccessPref','enableNonCertifiedApexMdCrud','enableSecureNoArgConstructorPref'};
+}

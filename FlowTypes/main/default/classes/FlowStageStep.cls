@@ -1,0 +1,36 @@
+public class FlowStageStep {
+    public String actionName;
+    public String actionType;
+    public FlowStageStepAssignee[] assignees;
+    public FlowStageStepEntryActionInputParameter[] entryActionInputParameters;
+    public String entryActionName;
+    public FlowStageStepEntryActionOutputParameter[] entryActionOutputParameters;
+    public String entryActionType;
+    public String entryConditionLogic;
+    public FlowCondition[] entryConditions;
+    public FlowStageStepExitActionInputParameter[] exitActionInputParameters;
+    public String exitActionName;
+    public FlowStageStepExitActionOutputParameter[] exitActionOutputParameters;
+    public String exitActionType;
+    public FlowStageStepInputParameter[] inputParameters;
+    public String label;
+    public FlowStageStepOutputParameter[] outputParameters;
+    private String[] actionName_type_info = new String[]{'actionName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] actionType_type_info = new String[]{'actionType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] assignees_type_info = new String[]{'assignees','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] entryActionInputParameters_type_info = new String[]{'entryActionInputParameters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] entryActionName_type_info = new String[]{'entryActionName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] entryActionOutputParameters_type_info = new String[]{'entryActionOutputParameters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] entryActionType_type_info = new String[]{'entryActionType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] entryConditionLogic_type_info = new String[]{'entryConditionLogic','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] entryConditions_type_info = new String[]{'entryConditions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] exitActionInputParameters_type_info = new String[]{'exitActionInputParameters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] exitActionName_type_info = new String[]{'exitActionName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] exitActionOutputParameters_type_info = new String[]{'exitActionOutputParameters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] exitActionType_type_info = new String[]{'exitActionType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] inputParameters_type_info = new String[]{'inputParameters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] outputParameters_type_info = new String[]{'outputParameters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'actionName','actionType','assignees','entryActionInputParameters','entryActionName','entryActionOutputParameters','entryActionType','entryConditionLogic','entryConditions','exitActionInputParameters','exitActionName','exitActionOutputParameters','exitActionType','inputParameters','label','outputParameters'};
+}

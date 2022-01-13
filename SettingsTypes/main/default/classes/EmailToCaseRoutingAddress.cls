@@ -1,0 +1,30 @@
+public class EmailToCaseRoutingAddress {
+    public String addressType;
+    public String authorizedSenders;
+    public String caseOrigin;
+    public String caseOwner;
+    public String caseOwnerType;
+    public String casePriority;
+    public Boolean createTask;
+    public String emailAddress;
+    public String emailServicesAddress;
+    public Boolean isVerified;
+    public String routingName;
+    public Boolean saveEmailHeaders;
+    public String taskStatus;
+    private String[] addressType_type_info = new String[]{'addressType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] authorizedSenders_type_info = new String[]{'authorizedSenders','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] caseOrigin_type_info = new String[]{'caseOrigin','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] caseOwner_type_info = new String[]{'caseOwner','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] caseOwnerType_type_info = new String[]{'caseOwnerType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] casePriority_type_info = new String[]{'casePriority','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] createTask_type_info = new String[]{'createTask','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] emailAddress_type_info = new String[]{'emailAddress','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] emailServicesAddress_type_info = new String[]{'emailServicesAddress','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] isVerified_type_info = new String[]{'isVerified','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] routingName_type_info = new String[]{'routingName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] saveEmailHeaders_type_info = new String[]{'saveEmailHeaders','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] taskStatus_type_info = new String[]{'taskStatus','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'addressType','authorizedSenders','caseOrigin','caseOwner','caseOwnerType','casePriority','createTask','emailAddress','emailServicesAddress','isVerified','routingName','saveEmailHeaders','taskStatus'};
+}

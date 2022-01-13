@@ -1,0 +1,34 @@
+public class ChatterSettings {
+    public Boolean allowChatterGroupArchiving;
+    public Boolean allowRecordsInChatterGroup;
+    public Boolean enableApprovalRequest;
+    public Boolean enableCaseFeedRelativeTimestamps;
+    public Boolean enableChatter;
+    public Boolean enableChatterEmoticons;
+    public Boolean enableFeedEdit;
+    public Boolean enableFeedPinning;
+    public Boolean enableFeedsDraftPosts;
+    public Boolean enableFeedsRichText;
+    public Boolean enableInviteCsnUsers;
+    public Boolean enableOutOfOfficeEnabledPref;
+    public Boolean enableRichLinkPreviewsInFeed;
+    public Boolean enableTodayRecsInFeed;
+    public Boolean unlistedGroupsEnabled;
+    private String[] allowChatterGroupArchiving_type_info = new String[]{'allowChatterGroupArchiving','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] allowRecordsInChatterGroup_type_info = new String[]{'allowRecordsInChatterGroup','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableApprovalRequest_type_info = new String[]{'enableApprovalRequest','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableCaseFeedRelativeTimestamps_type_info = new String[]{'enableCaseFeedRelativeTimestamps','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableChatter_type_info = new String[]{'enableChatter','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableChatterEmoticons_type_info = new String[]{'enableChatterEmoticons','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableFeedEdit_type_info = new String[]{'enableFeedEdit','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableFeedPinning_type_info = new String[]{'enableFeedPinning','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableFeedsDraftPosts_type_info = new String[]{'enableFeedsDraftPosts','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableFeedsRichText_type_info = new String[]{'enableFeedsRichText','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableInviteCsnUsers_type_info = new String[]{'enableInviteCsnUsers','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableOutOfOfficeEnabledPref_type_info = new String[]{'enableOutOfOfficeEnabledPref','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableRichLinkPreviewsInFeed_type_info = new String[]{'enableRichLinkPreviewsInFeed','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableTodayRecsInFeed_type_info = new String[]{'enableTodayRecsInFeed','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] unlistedGroupsEnabled_type_info = new String[]{'unlistedGroupsEnabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'allowChatterGroupArchiving','allowRecordsInChatterGroup','enableApprovalRequest','enableCaseFeedRelativeTimestamps','enableChatter','enableChatterEmoticons','enableFeedEdit','enableFeedPinning','enableFeedsDraftPosts','enableFeedsRichText','enableInviteCsnUsers','enableOutOfOfficeEnabledPref','enableRichLinkPreviewsInFeed','enableTodayRecsInFeed','unlistedGroupsEnabled'};
+}

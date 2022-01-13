@@ -1,0 +1,32 @@
+public class OpportunitySettings {
+    public Boolean autoActivateNewReminders;
+    public Boolean customizableProductSchedulesEnabled;
+    public Boolean doesEnforceStandardOpportunitySaveLogic;
+    public Boolean enableExpandedPipelineInspectionSetup;
+    public Boolean enableFindSimilarOpportunities;
+    public Boolean enableOpportunityFieldHistoryTracking;
+    public Boolean enableOpportunityInsightsInMobile;
+    public Boolean enableOpportunityTeam;
+    public Boolean enablePipelineInspection;
+    public Boolean enableUpdateReminders;
+    public FindSimilarOppFilter findSimilarOppFilter;
+    public Boolean oppAmountDealMotionEnabled;
+    public Boolean oppCloseDateDealMotionEnabled;
+    public Boolean promptToAddProducts;
+    private String[] autoActivateNewReminders_type_info = new String[]{'autoActivateNewReminders','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] customizableProductSchedulesEnabled_type_info = new String[]{'customizableProductSchedulesEnabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] doesEnforceStandardOpportunitySaveLogic_type_info = new String[]{'doesEnforceStandardOpportunitySaveLogic','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableExpandedPipelineInspectionSetup_type_info = new String[]{'enableExpandedPipelineInspectionSetup','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableFindSimilarOpportunities_type_info = new String[]{'enableFindSimilarOpportunities','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableOpportunityFieldHistoryTracking_type_info = new String[]{'enableOpportunityFieldHistoryTracking','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableOpportunityInsightsInMobile_type_info = new String[]{'enableOpportunityInsightsInMobile','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableOpportunityTeam_type_info = new String[]{'enableOpportunityTeam','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enablePipelineInspection_type_info = new String[]{'enablePipelineInspection','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] enableUpdateReminders_type_info = new String[]{'enableUpdateReminders','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] findSimilarOppFilter_type_info = new String[]{'findSimilarOppFilter','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] oppAmountDealMotionEnabled_type_info = new String[]{'oppAmountDealMotionEnabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] oppCloseDateDealMotionEnabled_type_info = new String[]{'oppCloseDateDealMotionEnabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] promptToAddProducts_type_info = new String[]{'promptToAddProducts','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'autoActivateNewReminders','customizableProductSchedulesEnabled','doesEnforceStandardOpportunitySaveLogic','enableExpandedPipelineInspectionSetup','enableFindSimilarOpportunities','enableOpportunityFieldHistoryTracking','enableOpportunityInsightsInMobile','enableOpportunityTeam','enablePipelineInspection','enableUpdateReminders','findSimilarOppFilter','oppAmountDealMotionEnabled','oppCloseDateDealMotionEnabled','promptToAddProducts'};
+}

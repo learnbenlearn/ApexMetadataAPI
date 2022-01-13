@@ -1,0 +1,30 @@
+public class FlowRecordLookup {
+    public Boolean assignNullValuesIfNoRecordsFound;
+    public FlowConnector connector;
+    public FlowConnector faultConnector;
+    public String filterLogic;
+    public FlowRecordFilter[] filters;
+    public Boolean getFirstRecordOnly;
+    public String object_x;
+    public FlowOutputFieldAssignment[] outputAssignments;
+    public String outputReference;
+    public String[] queriedFields;
+    public String sortField;
+    public String sortOrder;
+    public Boolean storeOutputAutomatically;
+    private String[] assignNullValuesIfNoRecordsFound_type_info = new String[]{'assignNullValuesIfNoRecordsFound','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] connector_type_info = new String[]{'connector','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] faultConnector_type_info = new String[]{'faultConnector','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] filterLogic_type_info = new String[]{'filterLogic','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] filters_type_info = new String[]{'filters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] getFirstRecordOnly_type_info = new String[]{'getFirstRecordOnly','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] object_x_type_info = new String[]{'object','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] outputAssignments_type_info = new String[]{'outputAssignments','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] outputReference_type_info = new String[]{'outputReference','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] queriedFields_type_info = new String[]{'queriedFields','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] sortField_type_info = new String[]{'sortField','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] sortOrder_type_info = new String[]{'sortOrder','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] storeOutputAutomatically_type_info = new String[]{'storeOutputAutomatically','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'assignNullValuesIfNoRecordsFound','connector','faultConnector','filterLogic','filters','getFirstRecordOnly','object_x','outputAssignments','outputReference','queriedFields','sortField','sortOrder','storeOutputAutomatically'};
+}
