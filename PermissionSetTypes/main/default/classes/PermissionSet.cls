@@ -1,0 +1,38 @@
+public class PermissionSet {
+    public PermissionSetApplicationVisibility[] applicationVisibilities;
+    public MobileDetailConfig.PermissionSetApexClassAccess[] classAccesses;
+    public PermissionSetCustomMetadataTypeAccess[] customMetadataTypeAccesses;
+    public PermissionSetCustomPermissions[] customPermissions;
+    public PermissionSetCustomSettingAccess[] customSettingAccesses;
+    public String description;
+    public PermissionSetExternalDataSourceAccess[] externalDataSourceAccesses;
+    public PermissionSetFieldPermissions[] fieldPermissions;
+    public PermissionSetFlowAccess[] flowAccesses;
+    public Boolean hasActivationRequired;
+    public String label;
+    public String license;
+    public PermissionSetObjectPermissions[] objectPermissions;
+    public PermissionSetApexPageAccess[] pageAccesses;
+    public PermissionSetRecordTypeVisibility[] recordTypeVisibilities;
+    public PermissionSetTabSetting[] tabSettings;
+    public PermissionSetUserPermission[] userPermissions;
+    private String[] applicationVisibilities_type_info = new String[]{'applicationVisibilities','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] classAccesses_type_info = new String[]{'classAccesses','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] customMetadataTypeAccesses_type_info = new String[]{'customMetadataTypeAccesses','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] customPermissions_type_info = new String[]{'customPermissions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] customSettingAccesses_type_info = new String[]{'customSettingAccesses','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] externalDataSourceAccesses_type_info = new String[]{'externalDataSourceAccesses','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] fieldPermissions_type_info = new String[]{'fieldPermissions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] flowAccesses_type_info = new String[]{'flowAccesses','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] hasActivationRequired_type_info = new String[]{'hasActivationRequired','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] license_type_info = new String[]{'license','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] objectPermissions_type_info = new String[]{'objectPermissions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] pageAccesses_type_info = new String[]{'pageAccesses','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] recordTypeVisibilities_type_info = new String[]{'recordTypeVisibilities','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] tabSettings_type_info = new String[]{'tabSettings','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] userPermissions_type_info = new String[]{'userPermissions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'applicationVisibilities','classAccesses','customMetadataTypeAccesses','customPermissions','customSettingAccesses','description','externalDataSourceAccesses','fieldPermissions','flowAccesses','hasActivationRequired','label','license','objectPermissions','pageAccesses','recordTypeVisibilities','tabSettings','userPermissions'};
+}

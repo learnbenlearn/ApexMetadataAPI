@@ -66,6 +66,42 @@
     },
     {
       "path": "DeclarativeUserInterfaceTypes",
+      "default": false
+    },
+    {
+      "path": "MultiLanguageSupportTypes",
+      "default": false
+    },
+    {
+      "path": "PermissionSetTypes",
+      "default": false
+    },
+    {
+      "path": "ProfileTypes",
+      "default": false
+    },
+    {
+      "path": "UserTypes",
+      "default": false
+    },
+    {
+      "path": "SharingRuleTypes",
+      "default": false
+    },
+    {
+      "path": "ContentAssetTypes",
+      "default": false
+    },
+    {
+      "path": "ProgrammaticUserInterfaceTypes",
+      "default": false
+    },
+    {
+      "path": "PackageVersionType",
+      "default": false
+    },
+    {
+      "path": "LightningBoltTypes",
       "default": true
     }
   ],

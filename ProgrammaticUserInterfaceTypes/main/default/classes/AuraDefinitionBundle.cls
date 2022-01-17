@@ -1,0 +1,34 @@
+public class AuraDefinitionBundle {
+    public String SVGContent;
+    public Double apiVersion;
+    public AuraDefinitions auraDefinitions;
+    public String controllerContent;
+    public String description;
+    public String designContent;
+    public String documentationContent;
+    public String helperContent;
+    public String markup;
+    public String modelContent;
+    public PackageVersion[] packageVersions;
+    public String rendererContent;
+    public String styleContent;
+    public String testsuiteContent;
+    public String type_x;
+    private String[] SVGContent_type_info = new String[]{'SVGContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apiVersion_type_info = new String[]{'apiVersion','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] auraDefinitions_type_info = new String[]{'auraDefinitions','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] controllerContent_type_info = new String[]{'controllerContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] designContent_type_info = new String[]{'designContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] documentationContent_type_info = new String[]{'documentationContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] helperContent_type_info = new String[]{'helperContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] markup_type_info = new String[]{'markup','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] modelContent_type_info = new String[]{'modelContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] packageVersions_type_info = new String[]{'packageVersions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] rendererContent_type_info = new String[]{'rendererContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] styleContent_type_info = new String[]{'styleContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] testsuiteContent_type_info = new String[]{'testsuiteContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'SVGContent','apiVersion','auraDefinitions','controllerContent','description','designContent','documentationContent','helperContent','markup','modelContent','packageVersions','rendererContent','styleContent','testsuiteContent','type_x'};
+}
