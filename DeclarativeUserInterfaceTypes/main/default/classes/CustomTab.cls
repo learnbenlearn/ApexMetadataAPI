@@ -1,0 +1,36 @@
+public class CustomTab {
+    public ActionOverride[] actionOverrides;
+    public String auraComponent;
+    public Boolean customObject;
+    public String description;
+    public String flexiPage;
+    public Integer frameHeight;
+    public Boolean hasSidebar;
+    public String icon;
+    public String label;
+    public String lwcComponent;
+    public String motif;
+    public String page_x;
+    public String scontrol;
+    public String splashPageLink;
+    public String url;
+    public String urlEncodingKey;
+    private String[] actionOverrides_type_info = new String[]{'actionOverrides','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] auraComponent_type_info = new String[]{'auraComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] customObject_type_info = new String[]{'customObject','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] flexiPage_type_info = new String[]{'flexiPage','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] frameHeight_type_info = new String[]{'frameHeight','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] hasSidebar_type_info = new String[]{'hasSidebar','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] icon_type_info = new String[]{'icon','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] lwcComponent_type_info = new String[]{'lwcComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] motif_type_info = new String[]{'motif','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] scontrol_type_info = new String[]{'scontrol','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] splashPageLink_type_info = new String[]{'splashPageLink','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] url_type_info = new String[]{'url','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] urlEncodingKey_type_info = new String[]{'urlEncodingKey','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'actionOverrides','auraComponent','customObject','description','flexiPage','frameHeight','hasSidebar','icon','label','lwcComponent','motif','page_x','scontrol','splashPageLink','url','urlEncodingKey'};
+}

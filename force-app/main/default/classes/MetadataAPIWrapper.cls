@@ -15,16 +15,7 @@ public class MetadataAPIWrapper {
 
 
 
-    public class CustomHelpMenuItem {
-        public String linkUrl;
-        public String masterLabel;
-        public Integer sortOrder;
-        private String[] linkUrl_type_info = new String[]{'linkUrl','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sortOrder_type_info = new String[]{'sortOrder','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'linkUrl','masterLabel','sortOrder'};
-    }
+
 
     public class SaveResult {
         public MetadataAPIWrapper.Error[] errors;
@@ -94,14 +85,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'field','interfaceField'};
     }
-    public class MiniLayout {
-        public String[] fields;
-        public MetadataAPIWrapper.RelatedListItem[] relatedLists;
-        private String[] fields_type_info = new String[]{'fields','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] relatedLists_type_info = new String[]{'relatedLists','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'fields','relatedLists'};
-    }
+
     public class LicensedCustomPermissions {
         public String customPermission;
         public String licenseDefinition;
@@ -274,22 +258,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'application','default_x','visible'};
     }
 
-    public class RelatedListItem {
-        public String[] customButtons;
-        public String[] excludeButtons;
-        public String[] fields;
-        public String relatedList;
-        public String sortField;
-        public String sortOrder;
-        private String[] customButtons_type_info = new String[]{'customButtons','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] excludeButtons_type_info = new String[]{'excludeButtons','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] fields_type_info = new String[]{'fields','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] relatedList_type_info = new String[]{'relatedList','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sortField_type_info = new String[]{'sortField','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] sortOrder_type_info = new String[]{'sortOrder','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customButtons','excludeButtons','fields','relatedList','sortField','sortOrder'};
-    }
+
     public class LwcResource {
         public String filePath;
         public String source;
@@ -299,18 +268,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'filePath','source'};
     }
 
-    public class LightningExperienceTheme {
-        public String defaultBrandingSet;
-        public String description;
-        public String masterLabel;
-        public Boolean shouldOverrideLoadingImage;
-        private String[] defaultBrandingSet_type_info = new String[]{'defaultBrandingSet','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] shouldOverrideLoadingImage_type_info = new String[]{'shouldOverrideLoadingImage','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'defaultBrandingSet','description','masterLabel','shouldOverrideLoadingImage'};
-    }
+
     public class ProfileCategoryGroupVisibility {
         public String[] dataCategories;
         public String dataCategoryGroup;
@@ -473,14 +431,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'UIObjectRelationFieldConfigs','contextObject','contextObjectRecordType','directRelationshipField','indirectObjectContextField','indirectObjectRelatedField','indirectRelationshipObject','isActive','masterLabel','relatedObject','relatedObjectRecordType','relationshipType'};
     }
 
-    public class HomePageLayout {
-        public String[] narrowComponents;
-        public String[] wideComponents;
-        private String[] narrowComponents_type_info = new String[]{'narrowComponents','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] wideComponents_type_info = new String[]{'wideComponents','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'narrowComponents','wideComponents'};
-    }
+
     public class ProfileCustomMetadataTypeAccess {
         public Boolean enabled;
         public String name;
@@ -489,37 +440,9 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'enabled','name'};
     }
-    public class QuickActionSendEmailOptions {
-        public String defaultEmailTemplateName;
-        public Boolean ignoreDefaultEmailTemplateSubject;
-        private String[] defaultEmailTemplateName_type_info = new String[]{'defaultEmailTemplateName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] ignoreDefaultEmailTemplateSubject_type_info = new String[]{'ignoreDefaultEmailTemplateSubject','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'defaultEmailTemplateName','ignoreDefaultEmailTemplateSubject'};
-    }
 
-    public class AppPreferences {
-        public Boolean enableCustomizeMyTabs;
-        public Boolean enableKeyboardShortcuts;
-        public Boolean enableListViewHover;
-        public Boolean enableListViewReskin;
-        public Boolean enableMultiMonitorComponents;
-        public Boolean enablePinTabs;
-        public Boolean enableTabHover;
-        public Boolean enableTabLimits;
-        public Boolean saveUserSessions;
-        private String[] enableCustomizeMyTabs_type_info = new String[]{'enableCustomizeMyTabs','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] enableKeyboardShortcuts_type_info = new String[]{'enableKeyboardShortcuts','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] enableListViewHover_type_info = new String[]{'enableListViewHover','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] enableListViewReskin_type_info = new String[]{'enableListViewReskin','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] enableMultiMonitorComponents_type_info = new String[]{'enableMultiMonitorComponents','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] enablePinTabs_type_info = new String[]{'enablePinTabs','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] enableTabHover_type_info = new String[]{'enableTabHover','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] enableTabLimits_type_info = new String[]{'enableTabLimits','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] saveUserSessions_type_info = new String[]{'saveUserSessions','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'enableCustomizeMyTabs','enableKeyboardShortcuts','enableListViewHover','enableListViewReskin','enableMultiMonitorComponents','enablePinTabs','enableTabHover','enableTabLimits','saveUserSessions'};
-    }
+
+
 
     public class ApexTestSuite {
         public String[] testClassName;
@@ -528,56 +451,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'testClassName'};
     }
 
-    public class Layout {
-        public String[] customButtons;
-        public MetadataAPIWrapper.CustomConsoleComponents customConsoleComponents;
-        public Boolean emailDefault;
-        public String[] excludeButtons;
-        public MetadataAPIWrapper.FeedLayout feedLayout;
-        public String[] headers;
-        public MetadataAPIWrapper.LayoutSection[] layoutSections;
-        public MetadataAPIWrapper.MiniLayout miniLayout;
-        public String[] multilineLayoutFields;
-        public MetadataAPIWrapper.PlatformActionList platformActionList;
-        public MetadataAPIWrapper.QuickActionList quickActionList;
-        public MetadataAPIWrapper.RelatedContent relatedContent;
-        public MetadataAPIWrapper.RelatedListItem[] relatedLists;
-        public String[] relatedObjects;
-        public Boolean runAssignmentRulesDefault;
-        public Boolean showEmailCheckbox;
-        public Boolean showHighlightsPanel;
-        public Boolean showInteractionLogPanel;
-        public Boolean showKnowledgeComponent;
-        public Boolean showRunAssignmentRulesCheckbox;
-        public Boolean showSolutionSection;
-        public Boolean showSubmitAndAttachButton;
-        public MetadataAPIWrapper.SummaryLayout summaryLayout;
-        private String[] customButtons_type_info = new String[]{'customButtons','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] customConsoleComponents_type_info = new String[]{'customConsoleComponents','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] emailDefault_type_info = new String[]{'emailDefault','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] excludeButtons_type_info = new String[]{'excludeButtons','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] feedLayout_type_info = new String[]{'feedLayout','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] headers_type_info = new String[]{'headers','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] layoutSections_type_info = new String[]{'layoutSections','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] miniLayout_type_info = new String[]{'miniLayout','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] multilineLayoutFields_type_info = new String[]{'multilineLayoutFields','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] platformActionList_type_info = new String[]{'platformActionList','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] quickActionList_type_info = new String[]{'quickActionList','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] relatedContent_type_info = new String[]{'relatedContent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] relatedLists_type_info = new String[]{'relatedLists','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] relatedObjects_type_info = new String[]{'relatedObjects','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] runAssignmentRulesDefault_type_info = new String[]{'runAssignmentRulesDefault','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showEmailCheckbox_type_info = new String[]{'showEmailCheckbox','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showHighlightsPanel_type_info = new String[]{'showHighlightsPanel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showInteractionLogPanel_type_info = new String[]{'showInteractionLogPanel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showKnowledgeComponent_type_info = new String[]{'showKnowledgeComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showRunAssignmentRulesCheckbox_type_info = new String[]{'showRunAssignmentRulesCheckbox','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showSolutionSection_type_info = new String[]{'showSolutionSection','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showSubmitAndAttachButton_type_info = new String[]{'showSubmitAndAttachButton','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] summaryLayout_type_info = new String[]{'summaryLayout','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customButtons','customConsoleComponents','emailDefault','excludeButtons','feedLayout','headers','layoutSections','miniLayout','multilineLayoutFields','platformActionList','quickActionList','relatedContent','relatedLists','relatedObjects','runAssignmentRulesDefault','showEmailCheckbox','showHighlightsPanel','showInteractionLogPanel','showKnowledgeComponent','showRunAssignmentRulesCheckbox','showSolutionSection','showSubmitAndAttachButton','summaryLayout'};
-    }
+
 
     public class ApexComponent {
         public Double apiVersion;
@@ -656,54 +530,6 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'allowMergeFieldsInBody','allowMergeFieldsInHeader','authProvider','authTokenEndpointUrl','awsAccessKey','awsAccessSecret','awsRegion','awsService','certificate','endpoint','generateAuthorizationHeader','jwtAudience','jwtFormulaSubject','jwtIssuer','jwtSigningCertificate','jwtTextSubject','jwtValidityPeriodSeconds','label','oauthRefreshToken','oauthScope','oauthToken','outboundNetworkConnection','password','principalType','protocol','username'};
     }
 
-    public class QuickAction {
-        public String actionSubtype;
-        public String canvas;
-        public String description;
-        public MetadataAPIWrapper.FieldOverride[] fieldOverrides;
-        public String flowDefinition;
-        public Integer height;
-        public String icon;
-        public Boolean isProtected;
-        public String label;
-        public String lightningComponent;
-        public String lightningWebComponent;
-        public Boolean optionsCreateFeedItem;
-        public String page_x;
-        public MetadataAPIWrapper.QuickActionLayout quickActionLayout;
-        public MetadataAPIWrapper.QuickActionSendEmailOptions quickActionSendEmailOptions;
-        public String standardLabel;
-        public String successMessage;
-        public String targetObject;
-        public String targetParentField;
-        public String targetRecordType;
-        public String type_x;
-        public Integer width;
-        private String[] actionSubtype_type_info = new String[]{'actionSubtype','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] canvas_type_info = new String[]{'canvas','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] fieldOverrides_type_info = new String[]{'fieldOverrides','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] flowDefinition_type_info = new String[]{'flowDefinition','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] icon_type_info = new String[]{'icon','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isProtected_type_info = new String[]{'isProtected','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] lightningComponent_type_info = new String[]{'lightningComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] lightningWebComponent_type_info = new String[]{'lightningWebComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] optionsCreateFeedItem_type_info = new String[]{'optionsCreateFeedItem','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] quickActionLayout_type_info = new String[]{'quickActionLayout','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] quickActionSendEmailOptions_type_info = new String[]{'quickActionSendEmailOptions','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] standardLabel_type_info = new String[]{'standardLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] successMessage_type_info = new String[]{'successMessage','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] targetObject_type_info = new String[]{'targetObject','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] targetParentField_type_info = new String[]{'targetParentField','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] targetRecordType_type_info = new String[]{'targetRecordType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'actionSubtype','canvas','description','fieldOverrides','flowDefinition','height','icon','isProtected','label','lightningComponent','lightningWebComponent','optionsCreateFeedItem','page_x','quickActionLayout','quickActionSendEmailOptions','standardLabel','successMessage','targetObject','targetParentField','targetRecordType','type_x','width'};
-    }
 
     public class SharingCriteriaRule {
         public String booleanFilter;
@@ -730,16 +556,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'content','name'};
     }
-    public class PathAssistantStep {
-        public String[] fieldNames;
-        public String info;
-        public String picklistValueName;
-        private String[] fieldNames_type_info = new String[]{'fieldNames','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] info_type_info = new String[]{'info','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] picklistValueName_type_info = new String[]{'picklistValueName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'fieldNames','info','picklistValueName'};
-    }
+
 
 
     public class ChannelLayoutItem {
@@ -748,24 +565,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'field'};
     }
-
-
-
-
-
-
-
-
-    public class FlexiPageEventSourceProperty {
-        public String name;
-        public String value;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name','value'};
-    }
-
-
 
     public class DataMapping {
         public String description;
@@ -813,28 +612,8 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'target'};
     }
-    public class FlexiPageEvent {
-        public String sourceName;
-        public MetadataAPIWrapper.FlexiPageEventSourceProperty[] sourceProperties;
-        public String sourceType;
-        public MetadataAPIWrapper.FlexiPageEventTarget[] targets;
-        private String[] sourceName_type_info = new String[]{'sourceName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sourceProperties_type_info = new String[]{'sourceProperties','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] sourceType_type_info = new String[]{'sourceType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] targets_type_info = new String[]{'targets','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'sourceName','sourceProperties','sourceType','targets'};
-    }
-    public class FeedLayoutFilter {
-        public String feedFilterName;
-        public String feedFilterType;
-        public String feedItemType;
-        private String[] feedFilterName_type_info = new String[]{'feedFilterName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] feedFilterType_type_info = new String[]{'feedFilterType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] feedItemType_type_info = new String[]{'feedItemType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'feedFilterName','feedFilterType','feedItemType'};
-    }
+
+
 
     public class describeValueTypeResponse_element {
         public MetadataAPIWrapper.DescribeValueTypeResult result;
@@ -862,14 +641,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'description','label','protected_x','values'};
     }
-    public class ItemInstance {
-        public MetadataAPIWrapper.ComponentInstance componentInstance;
-        public MetadataAPIWrapper.FieldInstance fieldInstance;
-        private String[] componentInstance_type_info = new String[]{'componentInstance','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] fieldInstance_type_info = new String[]{'fieldInstance','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'componentInstance','fieldInstance'};
-    }
+
 
     public class OauthCustomScope {
         public MetadataAPIWrapper.OauthCustomScopeApp[] assignedTo;
@@ -965,20 +737,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'apiVersion','packageVersions','status'};
     }
 
-    public class CustomConsoleComponents {
-        public MetadataAPIWrapper.PrimaryTabComponents primaryTabComponents;
-        public MetadataAPIWrapper.SubtabComponents subtabComponents;
-        private String[] primaryTabComponents_type_info = new String[]{'primaryTabComponents','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] subtabComponents_type_info = new String[]{'subtabComponents','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'primaryTabComponents','subtabComponents'};
-    }
-    public class AppMenu {
-        public MetadataAPIWrapper.AppMenuItem[] appMenuItems;
-        private String[] appMenuItems_type_info = new String[]{'appMenuItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'appMenuItems'};
-    }
+
     public class DebuggingInfo_element {
         public String debugLog;
         private String[] debugLog_type_info = new String[]{'debugLog','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -1113,19 +872,9 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'sharingCriteriaRules','sharingGuestRules','sharingOwnerRules','sharingTerritoryRules'};
     }
 
-    public class CustomLabels {
-        public MetadataAPIWrapper.CustomLabel[] labels;
-        private String[] labels_type_info = new String[]{'labels','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'labels'};
-    }
 
-    public class RelatedContentItem {
-        public MetadataAPIWrapper.LayoutItem layoutItem;
-        private String[] layoutItem_type_info = new String[]{'layoutItem','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'layoutItem'};
-    }
+
+
 
     public class RunTestsResult {
         public String apexLogId;
@@ -1182,30 +931,8 @@ public class MetadataAPIWrapper {
     }
 
 
-    public class SummaryLayoutItem {
-        public String customLink;
-        public String field;
-        public Integer posX;
-        public Integer posY;
-        public Integer posZ;
-        private String[] customLink_type_info = new String[]{'customLink','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] field_type_info = new String[]{'field','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] posX_type_info = new String[]{'posX','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] posY_type_info = new String[]{'posY','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] posZ_type_info = new String[]{'posZ','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customLink','field','posX','posY','posZ'};
-    }
-    public class QuickActionLayoutItem {
-        public Boolean emptySpace;
-        public String field;
-        public String uiBehavior;
-        private String[] emptySpace_type_info = new String[]{'emptySpace','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] field_type_info = new String[]{'field','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] uiBehavior_type_info = new String[]{'uiBehavior','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'emptySpace','field','uiBehavior'};
-    }
+
+
     public class DeployDetails {
         public MetadataAPIWrapper.DeployMessage[] componentFailures;
         public MetadataAPIWrapper.DeployMessage[] componentSuccesses;
@@ -1218,54 +945,13 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'componentFailures','componentSuccesses','retrieveResult','runTestResult'};
     }
-    public class FlexiPage {
-        public String description;
-        public MetadataAPIWrapper.FlexiPageEvent[] events;
-        public MetadataAPIWrapper.FlexiPageRegion[] flexiPageRegions;
-        public String masterLabel;
-        public String parentFlexiPage;
-        public MetadataAPIWrapper.PlatformActionList platformActionlist;
-        public MetadataAPIWrapper.QuickActionList quickActionList;
-        public String sobjectType;
-        public MetadataAPIWrapper.FlexiPageTemplateInstance template;
-        public String type_x;
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] events_type_info = new String[]{'events','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] flexiPageRegions_type_info = new String[]{'flexiPageRegions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] parentFlexiPage_type_info = new String[]{'parentFlexiPage','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] platformActionlist_type_info = new String[]{'platformActionlist','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] quickActionList_type_info = new String[]{'quickActionList','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] sobjectType_type_info = new String[]{'sobjectType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] template_type_info = new String[]{'template','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'description','events','flexiPageRegions','masterLabel','parentFlexiPage','platformActionlist','quickActionList','sobjectType','template','type_x'};
-    }
 
 
 
 
-    public class UiFormulaCriterion {
-        public String leftValue;
-        public String operator;
-        public String rightValue;
-        private String[] leftValue_type_info = new String[]{'leftValue','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] operator_type_info = new String[]{'operator','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] rightValue_type_info = new String[]{'rightValue','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'leftValue','operator','rightValue'};
-    }
-    public class PlatformActionList {
-        public String actionListContext;
-        public MetadataAPIWrapper.PlatformActionListItem[] platformActionListItems;
-        public String relatedSourceEntity;
-        private String[] actionListContext_type_info = new String[]{'actionListContext','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] platformActionListItems_type_info = new String[]{'platformActionListItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] relatedSourceEntity_type_info = new String[]{'relatedSourceEntity','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'actionListContext','platformActionListItems','relatedSourceEntity'};
-    }
+
+
+
     public class LightningComponentBundle {
         public Double apiVersion;
         public MetadataAPIWrapper.Capabilities capabilities;
@@ -1290,20 +976,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'apiVersion','capabilities','description','isExplicitImport','isExposed','lwcResources','masterLabel','runtimeNamespace','targetConfigs','targets'};
     }
-    public class FlexiPageEventTarget {
-        public MetadataAPIWrapper.FlexiPageEventPropertyMapping[] mappings;
-        public String method;
-        public String name;
-        public MetadataAPIWrapper.FlexiPageEventTargetProperty[] properties;
-        public String type_x;
-        private String[] mappings_type_info = new String[]{'mappings','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] method_type_info = new String[]{'method','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] properties_type_info = new String[]{'properties','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'mappings','method','name','properties','type_x'};
-    }
+
     public class AccountSharingRuleSettings {
         public String caseAccessLevel;
         public String contactAccessLevel;
@@ -1358,15 +1031,6 @@ public class MetadataAPIWrapper {
         private String[] scheduledRecommendationDetails_type_info = new String[]{'scheduledRecommendationDetails','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'scheduledRecommendationDetails'};
-    }
-
-    public class ComponentInstancePropertyListItem {
-        public String value;
-        public MetadataAPIWrapper.UiFormulaRule visibilityRule;
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] visibilityRule_type_info = new String[]{'visibilityRule','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'value','visibilityRule'};
     }
     public class deployRecentValidation_element {
         public String validationId;
@@ -1536,26 +1200,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'fridayEnd','fridayStart','mondayEnd','mondayStart','saturdayEnd','saturdayStart','sundayEnd','sundayStart','thursdayEnd','thursdayStart','tuesdayEnd','tuesdayStart','wednesdayEnd','wednesdayStart'};
     }
 
-    public class HomePageComponent {
-        public String body;
-        public Integer height;
-        public String[] links;
-        public String page_x;
-        public String pageComponentType;
-        public Boolean showLabel;
-        public Boolean showScrollbars;
-        public String width;
-        private String[] body_type_info = new String[]{'body','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] links_type_info = new String[]{'links','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] pageComponentType_type_info = new String[]{'pageComponentType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] showLabel_type_info = new String[]{'showLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showScrollbars_type_info = new String[]{'showScrollbars','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'body','height','links','page_x','pageComponentType','showLabel','showScrollbars','width'};
-    }
+
     public class PermissionSetFieldPermissions {
         public Boolean editable;
         public String field;
@@ -1654,12 +1299,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'appleTeam','authorizeUrl','consumerKey','consumerSecret','customMetadataTypeRecord','defaultScopes','ecKey','errorUrl','executionUser','friendlyName','iconUrl','idTokenIssuer','includeOrgIdInIdentifier','linkKickoffUrl','logoutUrl','oauthKickoffUrl','plugin','portal','providerType','registrationHandler','sendAccessTokenInHeader','sendClientCredentialsInHeader','sendSecretInApis','ssoKickoffUrl','tokenUrl','userInfoUrl'};
     }
 
-    public class RelatedContent {
-        public MetadataAPIWrapper.RelatedContentItem[] relatedContentItems;
-        private String[] relatedContentItems_type_info = new String[]{'relatedContentItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'relatedContentItems'};
-    }
+
 
 
     public class CustomMetadataValue {
@@ -1701,22 +1341,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'groupName','priority','targetType','targetValue'};
     }
 
-    public class PathAssistant {
-        public Boolean active;
-        public String entityName;
-        public String fieldName;
-        public String masterLabel;
-        public MetadataAPIWrapper.PathAssistantStep[] pathAssistantSteps;
-        public String recordTypeName;
-        private String[] active_type_info = new String[]{'active','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] entityName_type_info = new String[]{'entityName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] fieldName_type_info = new String[]{'fieldName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] pathAssistantSteps_type_info = new String[]{'pathAssistantSteps','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] recordTypeName_type_info = new String[]{'recordTypeName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'active','entityName','fieldName','masterLabel','pathAssistantSteps','recordTypeName'};
-    }
+
     public class AsyncResult {
         public Boolean done;
         public String id;
@@ -1757,20 +1382,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'businessProcessDefinitions','customerSatisfactionMetric','description','masterLabel'};
     }
-    public class CustomLabel {
-        public String categories;
-        public String language;
-        public Boolean protected_x;
-        public String shortDescription;
-        public String value;
-        private String[] categories_type_info = new String[]{'categories','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] language_type_info = new String[]{'language','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] protected_x_type_info = new String[]{'protected','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] shortDescription_type_info = new String[]{'shortDescription','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'categories','language','protected_x','shortDescription','value'};
-    }
+
     public class PlatformEventSubscriberConfig {
         public Integer batchSize;
         public Boolean isProtected;
@@ -1881,18 +1493,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'result'};
     }
 
-    public class ComponentInstance {
-        public MetadataAPIWrapper.ComponentInstanceProperty[] componentInstanceProperties;
-        public String componentName;
-        public String identifier;
-        public MetadataAPIWrapper.UiFormulaRule visibilityRule;
-        private String[] componentInstanceProperties_type_info = new String[]{'componentInstanceProperties','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] componentName_type_info = new String[]{'componentName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] identifier_type_info = new String[]{'identifier','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] visibilityRule_type_info = new String[]{'visibilityRule','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'componentInstanceProperties','componentName','identifier','visibilityRule'};
-    }
+
 
 
     public class ActionPlanTemplate {
@@ -2009,21 +1610,9 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'id','message','methodName','name','namespace','packageName','seeAllData','stackTrace','time_x','type_x'};
     }
-    public class SubtabComponents {
-        public MetadataAPIWrapper.Container[] containers;
-        private String[] containers_type_info = new String[]{'containers','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'containers'};
-    }
 
-    public class FlexiPageEventPropertyMapping {
-        public String name;
-        public String value;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name','value'};
-    }
+
+
 
 
     public class PermissionSet {
@@ -2116,42 +1705,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'roleAndSubordinateInternal'};
     }
-    public class CustomTab {
-        public MetadataAPIWrapper.ActionOverride[] actionOverrides;
-        public String auraComponent;
-        public Boolean customObject;
-        public String description;
-        public String flexiPage;
-        public Integer frameHeight;
-        public Boolean hasSidebar;
-        public String icon;
-        public String label;
-        public String lwcComponent;
-        public String motif;
-        public String page_x;
-        public String scontrol;
-        public String splashPageLink;
-        public String url;
-        public String urlEncodingKey;
-        private String[] actionOverrides_type_info = new String[]{'actionOverrides','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] auraComponent_type_info = new String[]{'auraComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] customObject_type_info = new String[]{'customObject','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] flexiPage_type_info = new String[]{'flexiPage','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] frameHeight_type_info = new String[]{'frameHeight','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] hasSidebar_type_info = new String[]{'hasSidebar','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] icon_type_info = new String[]{'icon','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] lwcComponent_type_info = new String[]{'lwcComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] motif_type_info = new String[]{'motif','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] scontrol_type_info = new String[]{'scontrol','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] splashPageLink_type_info = new String[]{'splashPageLink','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] url_type_info = new String[]{'url','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] urlEncodingKey_type_info = new String[]{'urlEncodingKey','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'actionOverrides','auraComponent','customObject','description','flexiPage','frameHeight','hasSidebar','icon','label','lwcComponent','motif','page_x','scontrol','splashPageLink','url','urlEncodingKey'};
-    }
+
     public class EnrichedField {
         public String name;
         private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -2172,32 +1726,9 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'apexHandler','executeApexHandlerAs','usernameLabel'};
     }
-    public class AppMenuItem {
-        public String name;
-        public String type_x;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name','type_x'};
-    }
-    public class TabLimitConfig {
-        public String maxNumberOfPrimaryTabs;
-        public String maxNumberOfSubTabs;
-        private String[] maxNumberOfPrimaryTabs_type_info = new String[]{'maxNumberOfPrimaryTabs','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] maxNumberOfSubTabs_type_info = new String[]{'maxNumberOfSubTabs','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'maxNumberOfPrimaryTabs','maxNumberOfSubTabs'};
-    }
-    public class FieldOverride {
-        public String field;
-        public String formula;
-        public String literalValue;
-        private String[] field_type_info = new String[]{'field','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] formula_type_info = new String[]{'formula','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] literalValue_type_info = new String[]{'literalValue','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'field','formula','literalValue'};
-    }
+
+
+
     public class ProfileTabVisibility {
         public String tab;
         public String visibility;
@@ -2222,69 +1753,11 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'description','extensionPointIdentifier','isEnabled','language','masterLabel'};
     }
-    public class AppBrand {
-        public String footerColor;
-        public String headerColor;
-        public String logo;
-        public Integer logoVersion;
-        public Boolean shouldOverrideOrgTheme;
-        private String[] footerColor_type_info = new String[]{'footerColor','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] headerColor_type_info = new String[]{'headerColor','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] logo_type_info = new String[]{'logo','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] logoVersion_type_info = new String[]{'logoVersion','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] shouldOverrideOrgTheme_type_info = new String[]{'shouldOverrideOrgTheme','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'footerColor','headerColor','logo','logoVersion','shouldOverrideOrgTheme'};
-    }
 
 
 
-    public class CustomPageWebLink {
-        public String availability;
-        public String description;
-        public String displayType;
-        public String encodingKey;
-        public Boolean hasMenubar;
-        public Boolean hasScrollbars;
-        public Boolean hasToolbar;
-        public Integer height;
-        public Boolean isResizable;
-        public String linkType;
-        public String masterLabel;
-        public String openType;
-        public String page_x;
-        public String position;
-        public Boolean protected_x;
-        public Boolean requireRowSelection;
-        public String scontrol;
-        public Boolean showsLocation;
-        public Boolean showsStatus;
-        public String url;
-        public Integer width;
-        private String[] availability_type_info = new String[]{'availability','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] displayType_type_info = new String[]{'displayType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] encodingKey_type_info = new String[]{'encodingKey','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] hasMenubar_type_info = new String[]{'hasMenubar','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] hasScrollbars_type_info = new String[]{'hasScrollbars','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] hasToolbar_type_info = new String[]{'hasToolbar','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isResizable_type_info = new String[]{'isResizable','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] linkType_type_info = new String[]{'linkType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] openType_type_info = new String[]{'openType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] position_type_info = new String[]{'position','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] protected_x_type_info = new String[]{'protected','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] requireRowSelection_type_info = new String[]{'requireRowSelection','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] scontrol_type_info = new String[]{'scontrol','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showsLocation_type_info = new String[]{'showsLocation','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showsStatus_type_info = new String[]{'showsStatus','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] url_type_info = new String[]{'url','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'availability','description','displayType','encodingKey','hasMenubar','hasScrollbars','hasToolbar','height','isResizable','linkType','masterLabel','openType','page_x','position','protected_x','requireRowSelection','scontrol','showsLocation','showsStatus','url','width'};
-    }
+
+
 
     public class SharingSet {
         public MetadataAPIWrapper.AccessMapping[] accessMappings;
@@ -2299,14 +1772,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'accessMappings','description','name','profiles'};
     }
 
-    public class LayoutColumn {
-        public MetadataAPIWrapper.LayoutItem[] layoutItems;
-        public String reserved;
-        private String[] layoutItems_type_info = new String[]{'layoutItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] reserved_type_info = new String[]{'reserved','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'layoutItems','reserved'};
-    }
+
     public class Error {
         public MetadataAPIWrapper.ExtendedErrorDetails[] extendedErrorDetails;
         public String[] fields;
@@ -2407,18 +1873,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'apexEmailNotification'};
     }
-    public class PlatformActionListItem {
-        public String actionName;
-        public String actionType;
-        public Integer sortOrder;
-        public String subtype;
-        private String[] actionName_type_info = new String[]{'actionName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] actionType_type_info = new String[]{'actionType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sortOrder_type_info = new String[]{'sortOrder','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] subtype_type_info = new String[]{'subtype','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'actionName','actionType','sortOrder','subtype'};
-    }
+
     public class CallOptions_element {
         public String client;
         private String[] client_type_info = new String[]{'client','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -2561,12 +2016,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'role'};
     }
 
-    public class AppWorkspaceConfig {
-        public MetadataAPIWrapper.WorkspaceMapping[] mappings;
-        private String[] mappings_type_info = new String[]{'mappings','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'mappings'};
-    }
+
     public class UserProvisioningConfig {
         public String approvalRequired;
         public String connectedApp;
@@ -2605,14 +2055,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'channel','enabled','rank','recommendationAudience'};
     }
-    public class UiFormulaRule {
-        public String booleanFilter;
-        public MetadataAPIWrapper.UiFormulaCriterion[] criteria;
-        private String[] booleanFilter_type_info = new String[]{'booleanFilter','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] criteria_type_info = new String[]{'criteria','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'booleanFilter','criteria'};
-    }
+
     public class QueueSobject {
         public String sobjectType;
         private String[] sobjectType_type_info = new String[]{'sobjectType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -2673,14 +2116,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'accessLevel','accountToCriteriaField','description','entityType','masterLabel','staticFormulaCriteria','type_x'};
     }
-    public class FlexiPageEventTargetProperty {
-        public String name;
-        public String value;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name','value'};
-    }
+
     public class DebuggingHeader_element {
         public MetadataAPIWrapper.LogInfo[] categories;
         public String debugLevel;
@@ -2742,14 +2178,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'description','label','namedCredential','operations','registrationProviderType','schema','schemaType','schemaUrl','serviceBinding','status'};
     }
 
-    public class FieldInstanceProperty {
-        public String name;
-        public String value;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name','value'};
-    }
+
 
     public class describeMetadata_element {
         public Double asOfVersion;
@@ -2757,38 +2186,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'asOfVersion'};
     }
-    public class LayoutItem {
-        public MetadataAPIWrapper.AnalyticsCloudComponentLayoutItem analyticsCloudComponent;
-        public String behavior;
-        public String canvas;
-        public String component;
-        public String customLink;
-        public Boolean emptySpace;
-        public String field;
-        public Integer height;
-        public String page_x;
-        public MetadataAPIWrapper.ReportChartComponentLayoutItem reportChartComponent;
-        public String scontrol;
-        public Boolean showLabel;
-        public Boolean showScrollbars;
-        public String width;
-        private String[] analyticsCloudComponent_type_info = new String[]{'analyticsCloudComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] behavior_type_info = new String[]{'behavior','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] canvas_type_info = new String[]{'canvas','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] component_type_info = new String[]{'component','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] customLink_type_info = new String[]{'customLink','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] emptySpace_type_info = new String[]{'emptySpace','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] field_type_info = new String[]{'field','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] reportChartComponent_type_info = new String[]{'reportChartComponent','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] scontrol_type_info = new String[]{'scontrol','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showLabel_type_info = new String[]{'showLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showScrollbars_type_info = new String[]{'showScrollbars','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'analyticsCloudComponent','behavior','canvas','component','customLink','emptySpace','field','height','page_x','reportChartComponent','scontrol','showLabel','showScrollbars','width'};
-    }
+
     public class Portal {
         public Boolean active;
         public String admin;
@@ -2902,12 +2300,7 @@ public class MetadataAPIWrapper {
 
 
 
-    public class QuickActionLayoutColumn {
-        public MetadataAPIWrapper.QuickActionLayoutItem[] quickActionLayoutItems;
-        private String[] quickActionLayoutItems_type_info = new String[]{'quickActionLayoutItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'quickActionLayoutItems'};
-    }
+
     public class ContentAssetRelationships {
         public MetadataAPIWrapper.ContentAssetLink[] emailTemplate;
         public MetadataAPIWrapper.ContentAssetLink[] insightsApplication;
@@ -3026,48 +2419,8 @@ public class MetadataAPIWrapper {
     }
 
 
-    public class Container {
-        public Integer height;
-        public Boolean isContainerAutoSizeEnabled;
-        public String region;
-        public MetadataAPIWrapper.SidebarComponent[] sidebarComponents;
-        public String style;
-        public String unit;
-        public Integer width;
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isContainerAutoSizeEnabled_type_info = new String[]{'isContainerAutoSizeEnabled','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] region_type_info = new String[]{'region','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sidebarComponents_type_info = new String[]{'sidebarComponents','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] style_type_info = new String[]{'style','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] unit_type_info = new String[]{'unit','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'height','isContainerAutoSizeEnabled','region','sidebarComponents','style','unit','width'};
-    }
-    public class FeedLayout {
-        public Boolean autocollapsePublisher;
-        public Boolean compactFeed;
-        public String feedFilterPosition;
-        public MetadataAPIWrapper.FeedLayoutFilter[] feedFilters;
-        public Boolean fullWidthFeed;
-        public Boolean hideSidebar;
-        public Boolean highlightExternalFeedItems;
-        public MetadataAPIWrapper.FeedLayoutComponent[] leftComponents;
-        public MetadataAPIWrapper.FeedLayoutComponent[] rightComponents;
-        public Boolean useInlineFiltersInConsole;
-        private String[] autocollapsePublisher_type_info = new String[]{'autocollapsePublisher','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] compactFeed_type_info = new String[]{'compactFeed','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] feedFilterPosition_type_info = new String[]{'feedFilterPosition','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] feedFilters_type_info = new String[]{'feedFilters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] fullWidthFeed_type_info = new String[]{'fullWidthFeed','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] hideSidebar_type_info = new String[]{'hideSidebar','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] highlightExternalFeedItems_type_info = new String[]{'highlightExternalFeedItems','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] leftComponents_type_info = new String[]{'leftComponents','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] rightComponents_type_info = new String[]{'rightComponents','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] useInlineFiltersInConsole_type_info = new String[]{'useInlineFiltersInConsole','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'autocollapsePublisher','compactFeed','feedFilterPosition','feedFilters','fullWidthFeed','hideSidebar','highlightExternalFeedItems','leftComponents','rightComponents','useInlineFiltersInConsole'};
-    }
+
+
 
 
     public class FlowCoverageResult {
@@ -3115,36 +2468,9 @@ public class MetadataAPIWrapper {
 
 
 
-    public class QuickActionList {
-        public MetadataAPIWrapper.QuickActionListItem[] quickActionListItems;
-        private String[] quickActionListItems_type_info = new String[]{'quickActionListItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'quickActionListItems'};
-    }
-    public class FlexiPageRegion {
-        public String appendable;
-        public MetadataAPIWrapper.ItemInstance[] itemInstances;
-        public String mode;
-        public String name;
-        public String prependable;
-        public String replaceable;
-        public String type_x;
-        private String[] appendable_type_info = new String[]{'appendable','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] itemInstances_type_info = new String[]{'itemInstances','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] mode_type_info = new String[]{'mode','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] prependable_type_info = new String[]{'prependable','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] replaceable_type_info = new String[]{'replaceable','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'appendable','itemInstances','mode','name','prependable','replaceable','type_x'};
-    }
-    public class PrimaryTabComponents {
-        public MetadataAPIWrapper.Container[] containers;
-        private String[] containers_type_info = new String[]{'containers','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'containers'};
-    }
+
+
+
     public class updateMetadataResponse_element {
         public MetadataAPIWrapper.SaveResult[] result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
@@ -3162,12 +2488,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'accessLevel','sharedTo','sharedToType'};
     }
 
-    public class QuickActionListItem {
-        public String quickActionName;
-        private String[] quickActionName_type_info = new String[]{'quickActionName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'quickActionName'};
-    }
+
 
 
 
@@ -3206,42 +2527,8 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'enabled','name'};
     }
-    public class CustomApplicationComponent {
-        public String buttonIconUrl;
-        public String buttonStyle;
-        public String buttonText;
-        public Integer buttonWidth;
-        public Integer height;
-        public Boolean isHeightFixed;
-        public Boolean isHidden;
-        public Boolean isWidthFixed;
-        public String visualforcePage;
-        public Integer width;
-        private String[] buttonIconUrl_type_info = new String[]{'buttonIconUrl','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] buttonStyle_type_info = new String[]{'buttonStyle','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] buttonText_type_info = new String[]{'buttonText','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] buttonWidth_type_info = new String[]{'buttonWidth','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isHeightFixed_type_info = new String[]{'isHeightFixed','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] isHidden_type_info = new String[]{'isHidden','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] isWidthFixed_type_info = new String[]{'isWidthFixed','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] visualforcePage_type_info = new String[]{'visualforcePage','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'buttonIconUrl','buttonStyle','buttonText','buttonWidth','height','isHeightFixed','isHidden','isWidthFixed','visualforcePage','width'};
-    }
-    public class ComponentInstanceProperty {
-        public String name;
-        public String type_x;
-        public String value;
-        public MetadataAPIWrapper.ComponentInstancePropertyList valueList;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] valueList_type_info = new String[]{'valueList','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name','type_x','value','valueList'};
-    }
+
+
 
 
 
@@ -3352,14 +2639,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'action','active','keyCommand'};
     }
-    public class WorkspaceMapping {
-        public String fieldName;
-        public String tab;
-        private String[] fieldName_type_info = new String[]{'fieldName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] tab_type_info = new String[]{'tab','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'fieldName','tab'};
-    }
+
 
     public class OauthCustomScopeApp {
         public String connectedApp;
@@ -3396,18 +2676,7 @@ public class MetadataAPIWrapper {
 
 
 
-    public class ListPlacement {
-        public Integer height;
-        public String location;
-        public String units;
-        public Integer width;
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] location_type_info = new String[]{'location','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] units_type_info = new String[]{'units','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'height','location','units','width'};
-    }
+
     public class ActionPlanTemplateItemDependency {
         public String creationType;
         public String name;
@@ -3444,23 +2713,9 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'active','defaultValue','label','validFor','value'};
     }
 
-    public class FlexiPageTemplateInstance {
-        public String name;
-        public MetadataAPIWrapper.ComponentInstanceProperty[] properties;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] properties_type_info = new String[]{'properties','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name','properties'};
-    }
 
-    public class AppComponentList {
-        public String alignment;
-        public String[] components;
-        private String[] alignment_type_info = new String[]{'alignment','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] components_type_info = new String[]{'components','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'alignment','components'};
-    }
+
+
 
 
     public class CodeCoverageWarning {
@@ -3514,14 +2769,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'actionForNoRecordFound','actionForSingleRecordFound','channelType','description','isLinkedRecordOpenedAsSubTab','isRuleActive','masterLabel','objectToLink','ruleName'};
     }
-    public class CustomHelpMenuSection {
-        public MetadataAPIWrapper.CustomHelpMenuItem[] customHelpMenuItems;
-        public String masterLabel;
-        private String[] customHelpMenuItems_type_info = new String[]{'customHelpMenuItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customHelpMenuItems','masterLabel'};
-    }
+
 
 
     public class ApexPage {
@@ -3548,14 +2796,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
     }
-    public class RelatedList {
-        public Boolean hideOnDetail;
-        public String name;
-        private String[] hideOnDetail_type_info = new String[]{'hideOnDetail','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'hideOnDetail','name'};
-    }
+
     public class Capabilities {
         public String[] capability;
         private String[] capability_type_info = new String[]{'capability','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
@@ -3571,12 +2812,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'description','fieldName'};
     }
-    public class ComponentInstancePropertyList {
-        public MetadataAPIWrapper.ComponentInstancePropertyListItem[] valueListItems;
-        private String[] valueListItems_type_info = new String[]{'valueListItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'valueListItems'};
-    }
+
 
     public class MatchingRule {
         public String booleanFilter;
@@ -3593,30 +2829,7 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'booleanFilter','description','label','matchingRuleItems','ruleStatus'};
     }
 
-    public class AnalyticsCloudComponentLayoutItem {
-        public String assetType;
-        public String devName;
-        public String error;
-        public String filter;
-        public Integer height;
-        public Boolean hideOnError;
-        public Boolean showHeader;
-        public Boolean showSharing;
-        public Boolean showTitle;
-        public String width;
-        private String[] assetType_type_info = new String[]{'assetType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] devName_type_info = new String[]{'devName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] error_type_info = new String[]{'error','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] filter_type_info = new String[]{'filter','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] hideOnError_type_info = new String[]{'hideOnError','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showHeader_type_info = new String[]{'showHeader','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showSharing_type_info = new String[]{'showSharing','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] showTitle_type_info = new String[]{'showTitle','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'assetType','devName','error','filter','height','hideOnError','showHeader','showSharing','showTitle','width'};
-    }
+
 
 
     public class CustomFeedFilter {
@@ -3702,18 +2915,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'enabled','flow'};
     }
-    public class FieldInstance {
-        public MetadataAPIWrapper.FieldInstanceProperty[] fieldInstanceProperties;
-        public String fieldItem;
-        public String identifier;
-        public MetadataAPIWrapper.UiFormulaRule visibilityRule;
-        private String[] fieldInstanceProperties_type_info = new String[]{'fieldInstanceProperties','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] fieldItem_type_info = new String[]{'fieldItem','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] identifier_type_info = new String[]{'identifier','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] visibilityRule_type_info = new String[]{'visibilityRule','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'fieldInstanceProperties','fieldItem','identifier','visibilityRule'};
-    }
+
     public class RetrieveResult {
         public Boolean done;
         public String errorMessage;
@@ -3762,22 +2964,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'booleanFilter','duplicateRuleFilterItems'};
     }
-    public class LayoutSection {
-        public Boolean customLabel;
-        public Boolean detailHeading;
-        public Boolean editHeading;
-        public String label;
-        public MetadataAPIWrapper.LayoutColumn[] layoutColumns;
-        public String style;
-        private String[] customLabel_type_info = new String[]{'customLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] detailHeading_type_info = new String[]{'detailHeading','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] editHeading_type_info = new String[]{'editHeading','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] layoutColumns_type_info = new String[]{'layoutColumns','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] style_type_info = new String[]{'style','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customLabel','detailHeading','editHeading','label','layoutColumns','style'};
-    }
+
     public class cancelDeployResponse_element {
         public MetadataAPIWrapper.CancelDeployResult result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -3963,16 +3150,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'customNotifTypeName','description','desktop','masterLabel','mobile'};
     }
-    public class FeedLayoutComponent {
-        public String componentType;
-        public Integer height;
-        public String page_x;
-        private String[] componentType_type_info = new String[]{'componentType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'componentType','height','page_x'};
-    }
+
     public class PlatformEventChannelMember {
         public MetadataAPIWrapper.EnrichedField[] enrichedFields;
         public String eventChannel;
@@ -3995,48 +3173,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'enableActvityReminderBrowserNotifs','enableMobileAppPushNotifications','enableNotifications'};
     }
-    public class CustomApplication {
-        public MetadataAPIWrapper.AppActionOverride[] actionOverrides;
-        public MetadataAPIWrapper.AppBrand brand;
-        public String defaultLandingTab;
-        public String description;
-        public String[] formFactors;
-        public Boolean isNavAutoTempTabsDisabled;
-        public Boolean isNavPersonalizationDisabled;
-        public Boolean isServiceCloudConsole;
-        public String label;
-        public String logo;
-        public String navType;
-        public MetadataAPIWrapper.AppPreferences preferences;
-        public MetadataAPIWrapper.AppProfileActionOverride[] profileActionOverrides;
-        public String setupExperience;
-        public String[] subscriberTabs;
-        public String[] tabs;
-        public String uiType;
-        public String utilityBar;
-        public MetadataAPIWrapper.AppWorkspaceConfig workspaceConfig;
-        private String[] actionOverrides_type_info = new String[]{'actionOverrides','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] brand_type_info = new String[]{'brand','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] defaultLandingTab_type_info = new String[]{'defaultLandingTab','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] formFactors_type_info = new String[]{'formFactors','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] isNavAutoTempTabsDisabled_type_info = new String[]{'isNavAutoTempTabsDisabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isNavPersonalizationDisabled_type_info = new String[]{'isNavPersonalizationDisabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isServiceCloudConsole_type_info = new String[]{'isServiceCloudConsole','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] logo_type_info = new String[]{'logo','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] navType_type_info = new String[]{'navType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] preferences_type_info = new String[]{'preferences','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] profileActionOverrides_type_info = new String[]{'profileActionOverrides','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] setupExperience_type_info = new String[]{'setupExperience','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] subscriberTabs_type_info = new String[]{'subscriberTabs','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] tabs_type_info = new String[]{'tabs','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] uiType_type_info = new String[]{'uiType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] utilityBar_type_info = new String[]{'utilityBar','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] workspaceConfig_type_info = new String[]{'workspaceConfig','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'actionOverrides','brand','defaultLandingTab','description','formFactors','isNavAutoTempTabsDisabled','isNavPersonalizationDisabled','isServiceCloudConsole','label','logo','navType','preferences','profileActionOverrides','setupExperience','subscriberTabs','tabs','uiType','utilityBar','workspaceConfig'};
-    }
+
 
     public class DescribeMetadataResult {
         public MetadataAPIWrapper.DescribeMetadataObject[] metadataObjects;
@@ -4112,12 +3249,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'booleanFilter','criteriaItems','includeHVUOwnedRecords'};
     }
-    public class AppActionOverride {
-        public String pageOrSobjectType;
-        private String[] pageOrSobjectType_type_info = new String[]{'pageOrSobjectType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'pageOrSobjectType'};
-    }
+
     public class RoleAndSubordinates {
         public String[] roleAndSubordinate;
         private String[] roleAndSubordinate_type_info = new String[]{'roleAndSubordinate','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
@@ -4259,12 +3391,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'active','name'};
     }
-    public class AppProfileActionOverride {
-        public String profile;
-        private String[] profile_type_info = new String[]{'profile','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'profile'};
-    }
+
     public class CustomPermission {
         public String connectedApp;
         public String description;
@@ -4508,31 +3635,9 @@ public class MetadataAPIWrapper {
         private String[] field_order_type_info = new String[]{'maps','masterLabel'};
     }
 
-    public class SummaryLayout {
-        public String masterLabel;
-        public Integer sizeX;
-        public Integer sizeY;
-        public Integer sizeZ;
-        public MetadataAPIWrapper.SummaryLayoutItem[] summaryLayoutItems;
-        public String summaryLayoutStyle;
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sizeX_type_info = new String[]{'sizeX','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sizeY_type_info = new String[]{'sizeY','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] sizeZ_type_info = new String[]{'sizeZ','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] summaryLayoutItems_type_info = new String[]{'summaryLayoutItems','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] summaryLayoutStyle_type_info = new String[]{'summaryLayoutStyle','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'masterLabel','sizeX','sizeY','sizeZ','summaryLayoutItems','summaryLayoutStyle'};
-    }
 
-    public class QuickActionLayout {
-        public String layoutSectionStyle;
-        public MetadataAPIWrapper.QuickActionLayoutColumn[] quickActionLayoutColumns;
-        private String[] layoutSectionStyle_type_info = new String[]{'layoutSectionStyle','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] quickActionLayoutColumns_type_info = new String[]{'quickActionLayoutColumns','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'layoutSectionStyle','quickActionLayoutColumns'};
-    }
+
+
 
     public class listMetadataResponse_element {
         public MetadataAPIWrapper.FileProperties[] result;
@@ -4613,32 +3718,7 @@ public class MetadataAPIWrapper {
     }
 
 
-    public class SidebarComponent {
-        public String componentType;
-        public String createAction;
-        public Boolean enableLinking;
-        public Integer height;
-        public String label;
-        public String lookup;
-        public String page_x;
-        public MetadataAPIWrapper.RelatedList[] relatedLists;
-        public String unit;
-        public String updateAction;
-        public Integer width;
-        private String[] componentType_type_info = new String[]{'componentType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] createAction_type_info = new String[]{'createAction','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] enableLinking_type_info = new String[]{'enableLinking','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] height_type_info = new String[]{'height','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] lookup_type_info = new String[]{'lookup','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] page_x_type_info = new String[]{'page','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] relatedLists_type_info = new String[]{'relatedLists','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] unit_type_info = new String[]{'unit','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] updateAction_type_info = new String[]{'updateAction','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] width_type_info = new String[]{'width','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'componentType','createAction','enableLinking','height','label','lookup','page_x','relatedLists','unit','updateAction','width'};
-    }
+
     public class PermissionSetGroup {
         public String description;
         public Boolean hasActivationRequired;
