@@ -1,0 +1,36 @@
+public class EmailTemplate {
+    public Double apiVersion;
+    public String[] attachedDocuments;
+    public Attachment[] attachments;
+    public Boolean available;
+    public String description;
+    public String encodingKey;
+    public String letterhead;
+    public String name;
+    public PackageVersion[] packageVersions;
+    public String pageDevName;
+    public String relatedEntityType;
+    public String style;
+    public String subject;
+    public String textOnly;
+    public String type_x;
+    public String uiType;
+    private String[] apiVersion_type_info = new String[]{'apiVersion','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] attachedDocuments_type_info = new String[]{'attachedDocuments','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] attachments_type_info = new String[]{'attachments','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] available_type_info = new String[]{'available','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] encodingKey_type_info = new String[]{'encodingKey','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] letterhead_type_info = new String[]{'letterhead','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] packageVersions_type_info = new String[]{'packageVersions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] pageDevName_type_info = new String[]{'pageDevName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] relatedEntityType_type_info = new String[]{'relatedEntityType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] style_type_info = new String[]{'style','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] subject_type_info = new String[]{'subject','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] textOnly_type_info = new String[]{'textOnly','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] uiType_type_info = new String[]{'uiType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'apiVersion','attachedDocuments','attachments','available','description','encodingKey','letterhead','name','packageVersions','pageDevName','relatedEntityType','style','subject','textOnly','type_x','uiType'};
+}

@@ -1,0 +1,38 @@
+public class ExternalDataSource {
+    public String authProvider;
+    public String certificate;
+    public String customConfiguration;
+    public CustomHttpHeader[] customHttpHeaders;
+    public String endpoint;
+    public Boolean isWritable;
+    public String label;
+    public String oauthRefreshToken;
+    public String oauthScope;
+    public String oauthToken;
+    public String password;
+    public String principalType;
+    public String protocol;
+    public String repository;
+    public String type_x;
+    public String username;
+    public String version;
+    private String[] authProvider_type_info = new String[]{'authProvider','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] certificate_type_info = new String[]{'certificate','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] customConfiguration_type_info = new String[]{'customConfiguration','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] customHttpHeaders_type_info = new String[]{'customHttpHeaders','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
+    private String[] endpoint_type_info = new String[]{'endpoint','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] isWritable_type_info = new String[]{'isWritable','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] oauthRefreshToken_type_info = new String[]{'oauthRefreshToken','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] oauthScope_type_info = new String[]{'oauthScope','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] oauthToken_type_info = new String[]{'oauthToken','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] password_type_info = new String[]{'password','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] principalType_type_info = new String[]{'principalType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] protocol_type_info = new String[]{'protocol','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] repository_type_info = new String[]{'repository','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
+    private String[] username_type_info = new String[]{'username','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] version_type_info = new String[]{'version','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
+    private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
+    private String[] field_order_type_info = new String[]{'authProvider','certificate','customConfiguration','customHttpHeaders','endpoint','isWritable','label','oauthRefreshToken','oauthScope','oauthToken','password','principalType','protocol','repository','type_x','username','version'};
+}

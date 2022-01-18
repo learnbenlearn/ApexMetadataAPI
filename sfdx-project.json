@@ -5,63 +5,39 @@
       "default": false
     },
     {
-      "path": "BasicDeclarativeAutomationTypes",
+      "path": "SalesAndServiceCloudTypes",
+      "default": true
+    },
+    {
+      "path": "UserTypes",
       "default": false
     },
     {
-      "path": "FilterItemType",
-      "default": false 
-    },
-    {
-      "path": "ExperienceSiteTypes",
+      "path": "AuthorizationTypes",
       "default": false
     },
     {
-      "path": "SettingsTypes",
+      "path": "ApexTypes",
       "default": false
     },
     {
-      "path": "ObjectMappingTypes",
+      "path": "IndustriesTypes",
       "default": false
     },
     {
-      "path": "KnowledgeSettingsTypes",
+      "path": "DuplicateAndMatchingRulesTypes",
       "default": false
     },
     {
-      "path": "SecuritySettingsTypes",
+      "path": "KnowledgeTypes",
       "default": false
     },
     {
-      "path": "FlowTypes",
+      "path": "ExternalServiceTypes",
       "default": false
     },
     {
-      "path": "ConnectedAppTypes",
-      "default": false
-    },
-    {
-      "path": "DataModelTypes",
-      "default": false
-    },
-    {
-      "path": "ActionOverrideType",
-      "default": false
-    },
-    {
-      "path": "SharedToType",
-      "default": false
-    },
-    {
-      "path": "PicklistValueType",
-      "default": false
-    },
-    {
-      "path": "ActionOverrideType",
-      "default": false
-    },
-    {
-      "path": "DataVisualizationTypes",
+      "path": "SurveyTypes",
       "default": false
     },
     {
@@ -69,27 +45,7 @@
       "default": false
     },
     {
-      "path": "MultiLanguageSupportTypes",
-      "default": false
-    },
-    {
-      "path": "PermissionSetTypes",
-      "default": false
-    },
-    {
-      "path": "ProfileTypes",
-      "default": false
-    },
-    {
-      "path": "UserTypes",
-      "default": false
-    },
-    {
-      "path": "SharingRuleTypes",
-      "default": false
-    },
-    {
-      "path": "ContentAssetTypes",
+      "path": "SettingsTypes",
       "default": false
     },
     {
@@ -97,12 +53,8 @@
       "default": false
     },
     {
-      "path": "PackageVersionType",
+      "path": "EmailTypes",
       "default": false
-    },
-    {
-      "path": "LightningBoltTypes",
-      "default": true
     }
   ],
   "name": "OOEDemo",
