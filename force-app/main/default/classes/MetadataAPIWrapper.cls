@@ -443,20 +443,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'done','id','message','state','statusCode'};
     }
-    public class PlatformEventSubscriberConfig {
-        public Integer batchSize;
-        public Boolean isProtected;
-        public String masterLabel;
-        public String platformEventConsumer;
-        public String user_x;
-        private String[] batchSize_type_info = new String[]{'batchSize','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isProtected_type_info = new String[]{'isProtected','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] platformEventConsumer_type_info = new String[]{'platformEventConsumer','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] user_x_type_info = new String[]{'user','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'batchSize','isProtected','masterLabel','platformEventConsumer','user_x'};
-    }
     public class ChatterExtension {
         public String compositionComponent;
         public String description;
@@ -578,12 +564,6 @@ public class MetadataAPIWrapper {
         private String[] isDefault_type_info = new String[]{'isDefault','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'fieldImplements','isDefault'};
-    }
-    public class EnrichedField {
-        public String name;
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'name'};
     }
     public class UiPlugin {
         public String description;
@@ -708,14 +688,6 @@ public class MetadataAPIWrapper {
         private String[] recommendationAudience_type_info = new String[]{'recommendationAudience','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'channel','enabled','rank','recommendationAudience'};
-    }
-    public class PlatformEventChannel {
-        public String channelType;
-        public String label;
-        private String[] channelType_type_info = new String[]{'channelType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'channelType','label'};
     }
     public class Group_x {
         public Boolean doesIncludeBosses;
@@ -1139,16 +1111,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'customNotifTypeName','description','desktop','masterLabel','mobile'};
     }
-    public class PlatformEventChannelMember {
-        public MetadataAPIWrapper.EnrichedField[] enrichedFields;
-        public String eventChannel;
-        public String selectedEntity;
-        private String[] enrichedFields_type_info = new String[]{'enrichedFields','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] eventChannel_type_info = new String[]{'eventChannel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] selectedEntity_type_info = new String[]{'selectedEntity','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'enrichedFields','eventChannel','selectedEntity'};
-    }
+
     public class DescribeMetadataResult {
         public MetadataAPIWrapper.DescribeMetadataObject[] metadataObjects;
         public String organizationNamespace;
