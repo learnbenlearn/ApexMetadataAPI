@@ -39,28 +39,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
     }
-    public class RecommendationDefinition {
-        public MetadataAPIWrapper.RecommendationDefinitionDetail[] recommendationDefinitionDetails;
-        private String[] recommendationDefinitionDetails_type_info = new String[]{'recommendationDefinitionDetails','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'recommendationDefinitionDetails'};
-    }
-    public class FieldImplements {
-        public String field;
-        public String interfaceField;
-        private String[] field_type_info = new String[]{'field','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] interfaceField_type_info = new String[]{'interfaceField','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'field','interfaceField'};
-    }
-    public class LicensedCustomPermissions {
-        public String customPermission;
-        public String licenseDefinition;
-        private String[] customPermission_type_info = new String[]{'customPermission','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] licenseDefinition_type_info = new String[]{'licenseDefinition','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customPermission','licenseDefinition'};
-    }
     public class UpsertResult {
         public Boolean created;
         public MetadataAPIWrapper.Error[] errors;
@@ -97,12 +75,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'members','name'};
     }
-    public class RecommendationAudience {
-        public MetadataAPIWrapper.RecommendationAudienceDetail[] recommendationAudienceDetails;
-        private String[] recommendationAudienceDetails_type_info = new String[]{'recommendationAudienceDetails','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'recommendationAudienceDetails'};
-    }
     public class DescribeMetadataObject {
         public String[] childXmlNames;
         public String directoryName;
@@ -133,73 +105,11 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'queries','asOfVersion'};
     }
-    public class UIObjectRelationConfig {
-        public MetadataAPIWrapper.UIObjectRelationFieldConfig[] UIObjectRelationFieldConfigs;
-        public String contextObject;
-        public String contextObjectRecordType;
-        public String directRelationshipField;
-        public String indirectObjectContextField;
-        public String indirectObjectRelatedField;
-        public String indirectRelationshipObject;
-        public Boolean isActive;
-        public String masterLabel;
-        public String relatedObject;
-        public String relatedObjectRecordType;
-        public String relationshipType;
-        private String[] UIObjectRelationFieldConfigs_type_info = new String[]{'UIObjectRelationFieldConfigs','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] contextObject_type_info = new String[]{'contextObject','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] contextObjectRecordType_type_info = new String[]{'contextObjectRecordType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] directRelationshipField_type_info = new String[]{'directRelationshipField','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] indirectObjectContextField_type_info = new String[]{'indirectObjectContextField','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] indirectObjectRelatedField_type_info = new String[]{'indirectObjectRelatedField','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] indirectRelationshipObject_type_info = new String[]{'indirectRelationshipObject','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isActive_type_info = new String[]{'isActive','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] relatedObject_type_info = new String[]{'relatedObject','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] relatedObjectRecordType_type_info = new String[]{'relatedObjectRecordType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] relationshipType_type_info = new String[]{'relationshipType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'UIObjectRelationFieldConfigs','contextObject','contextObjectRecordType','directRelationshipField','indirectObjectContextField','indirectObjectRelatedField','indirectRelationshipObject','isActive','masterLabel','relatedObject','relatedObjectRecordType','relationshipType'};
-    }
-    public class DataMapping {
-        public String description;
-        public String masterLabel;
-        public String sourceObjectName;
-        public String sourceSchema;
-        public String targetObjectName;
-        public String targetSchema;
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sourceObjectName_type_info = new String[]{'sourceObjectName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sourceSchema_type_info = new String[]{'sourceSchema','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] targetObjectName_type_info = new String[]{'targetObjectName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] targetSchema_type_info = new String[]{'targetSchema','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'description','masterLabel','sourceObjectName','sourceSchema','targetObjectName','targetSchema'};
-    }
-    public class PersonalizationTargetInfos {
-        public MetadataAPIWrapper.PersonalizationTargetInfo[] target;
-        private String[] target_type_info = new String[]{'target','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'target'};
-    }
     public class describeValueTypeResponse_element {
         public MetadataAPIWrapper.DescribeValueTypeResult result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
-    }
-    public class CustomMetadata {
-        public String description;
-        public String label;
-        public Boolean protected_x;
-        public MetadataAPIWrapper.CustomMetadataValue[] values;
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] protected_x_type_info = new String[]{'protected','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] values_type_info = new String[]{'values','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'description','label','protected_x','values'};
     }
     public class FileProperties {
         public String createdById;
@@ -241,34 +151,7 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'debugLog'};
     }
-    public class StaticResource {
-        public String cacheControl;
-        public String contentType;
-        public String description;
-        private String[] cacheControl_type_info = new String[]{'cacheControl','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] contentType_type_info = new String[]{'contentType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'cacheControl','contentType','description'};
-    }
-    public class LightningOnboardingConfig {
-        public String collaborationGroup;
-        public String customQuestion;
-        public Integer feedbackFormDaysFrequency;
-        public Boolean isCustom;
-        public String masterLabel;
-        public Integer promptDelayTime;
-        public Boolean sendFeedbackToSalesforce;
-        private String[] collaborationGroup_type_info = new String[]{'collaborationGroup','http://soap.sforce.com/2006/04/metadata',null,'1','1','true'};
-        private String[] customQuestion_type_info = new String[]{'customQuestion','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] feedbackFormDaysFrequency_type_info = new String[]{'feedbackFormDaysFrequency','http://soap.sforce.com/2006/04/metadata',null,'1','1','true'};
-        private String[] isCustom_type_info = new String[]{'isCustom','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] promptDelayTime_type_info = new String[]{'promptDelayTime','http://soap.sforce.com/2006/04/metadata',null,'1','1','true'};
-        private String[] sendFeedbackToSalesforce_type_info = new String[]{'sendFeedbackToSalesforce','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'collaborationGroup','customQuestion','feedbackFormDaysFrequency','isCustom','masterLabel','promptDelayTime','sendFeedbackToSalesforce'};
-    }
+
     public class RunTestsResult {
         public String apexLogId;
         public MetadataAPIWrapper.CodeCoverageResult[] codeCoverage;
@@ -292,34 +175,6 @@ public class MetadataAPIWrapper {
         private String[] totalTime_type_info = new String[]{'totalTime','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'apexLogId','codeCoverage','codeCoverageWarnings','failures','flowCoverage','flowCoverageWarnings','numFailures','numTestsRun','successes','totalTime'};
-    }
-    public class LicenseDefinition {
-        public String aggregationGroup;
-        public String description;
-        public Boolean isPublished;
-        public String label;
-        public MetadataAPIWrapper.LicensedCustomPermissions[] licensedCustomPermissions;
-        public String licensingAuthority;
-        public String licensingAuthorityProvider;
-        public Integer minPlatformVersion;
-        public String origin;
-        public Integer revision;
-        public Integer trialLicenseDuration;
-        public Integer trialLicenseQuantity;
-        private String[] aggregationGroup_type_info = new String[]{'aggregationGroup','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isPublished_type_info = new String[]{'isPublished','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] licensedCustomPermissions_type_info = new String[]{'licensedCustomPermissions','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] licensingAuthority_type_info = new String[]{'licensingAuthority','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] licensingAuthorityProvider_type_info = new String[]{'licensingAuthorityProvider','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] minPlatformVersion_type_info = new String[]{'minPlatformVersion','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] origin_type_info = new String[]{'origin','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] revision_type_info = new String[]{'revision','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] trialLicenseDuration_type_info = new String[]{'trialLicenseDuration','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] trialLicenseQuantity_type_info = new String[]{'trialLicenseQuantity','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'aggregationGroup','description','isPublished','label','licensedCustomPermissions','licensingAuthority','licensingAuthorityProvider','minPlatformVersion','origin','revision','trialLicenseDuration','trialLicenseQuantity'};
     }
     public class DeployDetails {
         public MetadataAPIWrapper.DeployMessage[] componentFailures;
@@ -345,31 +200,11 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
     }
-    public class ScheduledRecommendation {
-        public MetadataAPIWrapper.ScheduledRecommendationDetail[] scheduledRecommendationDetails;
-        private String[] scheduledRecommendationDetails_type_info = new String[]{'scheduledRecommendationDetails','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'scheduledRecommendationDetails'};
-    }
     public class deployRecentValidation_element {
         public String validationId;
         private String[] validationId_type_info = new String[]{'validationId','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'validationId'};
-    }
-    public class Folder {
-        public String accessType;
-        public MetadataAPIWrapper.FolderShare[] folderShares;
-        public String name;
-        public String publicFolderAccess;
-        public MetadataAPIWrapper.SharedTo sharedTo;
-        private String[] accessType_type_info = new String[]{'accessType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] folderShares_type_info = new String[]{'folderShares','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] publicFolderAccess_type_info = new String[]{'publicFolderAccess','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] sharedTo_type_info = new String[]{'sharedTo','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'accessType','folderShares','name','publicFolderAccess','sharedTo'};
     }
     public class DeployOptions {
         public Boolean allowMissingFiles;
@@ -408,26 +243,6 @@ public class MetadataAPIWrapper {
         private String[] unpackaged_type_info = new String[]{'unpackaged','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'apiVersion','packageNames','singlePackage','specificFiles','unpackaged'};
-    }
-    public class CustomMetadataValue {
-        public String field;
-        public String value;
-        private String[] field_type_info = new String[]{'field','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] value_type_info = new String[]{'value','http://soap.sforce.com/2006/04/metadata',null,'1','1','true'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'field','value'};
-    }
-    public class PersonalizationTargetInfo {
-        public String groupName;
-        public Integer priority;
-        public String targetType;
-        public String targetValue;
-        private String[] groupName_type_info = new String[]{'groupName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] priority_type_info = new String[]{'priority','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] targetType_type_info = new String[]{'targetType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] targetValue_type_info = new String[]{'targetValue','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'groupName','priority','targetType','targetValue'};
     }
     public class AsyncResult {
         public Boolean done;
@@ -472,24 +287,6 @@ public class MetadataAPIWrapper {
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
-    }
-    public class IPAddressRange {
-        public String description;
-        public String endIpAddress;
-        public String ipAddressFeature;
-        public String ipAddressUsageScope;
-        public Boolean isProtected;
-        public String masterLabel;
-        public String startIpAddress;
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] endIpAddress_type_info = new String[]{'endIpAddress','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] ipAddressFeature_type_info = new String[]{'ipAddressFeature','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] ipAddressUsageScope_type_info = new String[]{'ipAddressUsageScope','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] isProtected_type_info = new String[]{'isProtected','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] startIpAddress_type_info = new String[]{'startIpAddress','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'description','endIpAddress','ipAddressFeature','ipAddressUsageScope','isProtected','masterLabel','startIpAddress'};
     }
     public class retrieveResponse_element {
         public MetadataAPIWrapper.AsyncResult result;
@@ -557,28 +354,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'id','message','methodName','name','namespace','packageName','seeAllData','stackTrace','time_x','type_x'};
     }
-    public class EntityImplements {
-        public MetadataAPIWrapper.FieldImplements[] fieldImplements;
-        public Boolean isDefault;
-        private String[] fieldImplements_type_info = new String[]{'fieldImplements','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] isDefault_type_info = new String[]{'isDefault','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'fieldImplements','isDefault'};
-    }
-    public class UiPlugin {
-        public String description;
-        public String extensionPointIdentifier;
-        public Boolean isEnabled;
-        public String language;
-        public String masterLabel;
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] extensionPointIdentifier_type_info = new String[]{'extensionPointIdentifier','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] isEnabled_type_info = new String[]{'isEnabled','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] language_type_info = new String[]{'language','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'description','extensionPointIdentifier','isEnabled','language','masterLabel'};
-    }
     public class Error {
         public MetadataAPIWrapper.ExtendedErrorDetails[] extendedErrorDetails;
         public String[] fields;
@@ -605,39 +380,11 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'done','id'};
     }
-    public class TransactionSecurityAction {
-        public Boolean block;
-        public Boolean endSession;
-        public Boolean freezeUser;
-        public MetadataAPIWrapper.TransactionSecurityNotification[] notifications;
-        public Boolean twoFactorAuthentication;
-        private String[] block_type_info = new String[]{'block','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] endSession_type_info = new String[]{'endSession','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] freezeUser_type_info = new String[]{'freezeUser','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] notifications_type_info = new String[]{'notifications','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] twoFactorAuthentication_type_info = new String[]{'twoFactorAuthentication','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'block','endSession','freezeUser','notifications','twoFactorAuthentication'};
-    }
     public class CallOptions_element {
         public String client;
         private String[] client_type_info = new String[]{'client','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'client'};
-    }
-    public class Document {
-        public String description;
-        public Boolean internalUseOnly;
-        public String keywords;
-        public String name;
-        public Boolean public_x;
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] internalUseOnly_type_info = new String[]{'internalUseOnly','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] keywords_type_info = new String[]{'keywords','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] public_x_type_info = new String[]{'public','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'description','internalUseOnly','keywords','name','public_x'};
     }
     public class upsertMetadata_element {
         public MetadataAPIWrapper.Metadata[] metadata;
@@ -676,26 +423,6 @@ public class MetadataAPIWrapper {
         private String[] newFullName_type_info = new String[]{'newFullName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'type_x','oldFullName','newFullName'};
-    }
-    public class ScheduledRecommendationDetail {
-        public String channel;
-        public Boolean enabled;
-        public Integer rank;
-        public String recommendationAudience;
-        private String[] channel_type_info = new String[]{'channel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] enabled_type_info = new String[]{'enabled','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] rank_type_info = new String[]{'rank','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] recommendationAudience_type_info = new String[]{'recommendationAudience','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'channel','enabled','rank','recommendationAudience'};
-    }
-    public class Group_x {
-        public Boolean doesIncludeBosses;
-        public String name;
-        private String[] doesIncludeBosses_type_info = new String[]{'doesIncludeBosses','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] name_type_info = new String[]{'name','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'doesIncludeBosses','name'};
     }
     public class Metadata {
         public String fullName;
@@ -748,38 +475,6 @@ public class MetadataAPIWrapper {
         private String[] level_type_info = new String[]{'level','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'category','level'};
-    }
-    public class DocumentFolder {
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{};
-    }
-    public class MobileApplicationDetail {
-        public String applicationBinaryFile;
-        public String applicationBinaryFileName;
-        public String applicationBundleIdentifier;
-        public Integer applicationFileLength;
-        public String applicationIconFile;
-        public String applicationIconFileName;
-        public String applicationInstallUrl;
-        public String devicePlatform;
-        public String deviceType;
-        public String minimumOsVersion;
-        public Boolean privateApp;
-        public String version;
-        private String[] applicationBinaryFile_type_info = new String[]{'applicationBinaryFile','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] applicationBinaryFileName_type_info = new String[]{'applicationBinaryFileName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] applicationBundleIdentifier_type_info = new String[]{'applicationBundleIdentifier','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] applicationFileLength_type_info = new String[]{'applicationFileLength','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] applicationIconFile_type_info = new String[]{'applicationIconFile','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] applicationIconFileName_type_info = new String[]{'applicationIconFileName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] applicationInstallUrl_type_info = new String[]{'applicationInstallUrl','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] devicePlatform_type_info = new String[]{'devicePlatform','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] deviceType_type_info = new String[]{'deviceType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] minimumOsVersion_type_info = new String[]{'minimumOsVersion','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] privateApp_type_info = new String[]{'privateApp','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] version_type_info = new String[]{'version','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'applicationBinaryFile','applicationBinaryFileName','applicationBundleIdentifier','applicationFileLength','applicationIconFile','applicationIconFileName','applicationInstallUrl','devicePlatform','deviceType','minimumOsVersion','privateApp','version'};
     }
     public class createMetadataResponse_element {
         public MetadataAPIWrapper.SaveResult[] result;
@@ -845,16 +540,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
     }
-    public class FolderShare {
-        public String accessLevel;
-        public String sharedTo;
-        public String sharedToType;
-        private String[] accessLevel_type_info = new String[]{'accessLevel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sharedTo_type_info = new String[]{'sharedTo','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sharedToType_type_info = new String[]{'sharedToType','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'accessLevel','sharedTo','sharedToType'};
-    }
     public class DescribeValueTypeResult {
         public Boolean apiCreatable;
         public Boolean apiDeletable;
@@ -870,46 +555,6 @@ public class MetadataAPIWrapper {
         private String[] valueTypeFields_type_info = new String[]{'valueTypeFields','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'apiCreatable','apiDeletable','apiReadable','apiUpdatable','parentField','valueTypeFields'};
-    }
-    public class UIObjectRelationFieldConfig {
-        public String displayLabel;
-        public String queryText;
-        public Integer rowOrder;
-        private String[] displayLabel_type_info = new String[]{'displayLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] queryText_type_info = new String[]{'queryText','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] rowOrder_type_info = new String[]{'rowOrder','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'displayLabel','queryText','rowOrder'};
-    }
-    public class TransactionSecurityPolicy {
-        public MetadataAPIWrapper.TransactionSecurityAction action;
-        public Boolean active;
-        public String apexClass;
-        public String blockMessage;
-        public String description;
-        public String developerName;
-        public String eventName;
-        public String eventType;
-        public String executionUser;
-        public String flow;
-        public String masterLabel;
-        public String resourceName;
-        public String type_x;
-        private String[] action_type_info = new String[]{'action','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] active_type_info = new String[]{'active','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apexClass_type_info = new String[]{'apexClass','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] blockMessage_type_info = new String[]{'blockMessage','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] developerName_type_info = new String[]{'developerName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] eventName_type_info = new String[]{'eventName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] eventType_type_info = new String[]{'eventType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] executionUser_type_info = new String[]{'executionUser','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] flow_type_info = new String[]{'flow','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] resourceName_type_info = new String[]{'resourceName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'action','active','apexClass','blockMessage','description','developerName','eventName','eventType','executionUser','flow','masterLabel','resourceName','type_x'};
     }
     public class deleteMetadata_element {
         public String type_x;
@@ -1049,16 +694,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'changed','columnNumber','componentType','created','createdDate','deleted','fileName','fullName','id','lineNumber','problem','problemType','success'};
     }
-    public class InstalledPackage {
-        public Boolean activateRSS;
-        public String password;
-        public String versionNumber;
-        private String[] activateRSS_type_info = new String[]{'activateRSS','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] password_type_info = new String[]{'password','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] versionNumber_type_info = new String[]{'versionNumber','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'activateRSS','password','versionNumber'};
-    }
     public class checkRetrieveStatus_element {
         public String asyncProcessId;
         public Boolean includeZip;
@@ -1097,21 +732,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'apiAccessLevel','description','namespacePrefix','objectPermissions','packageType','postInstallClass','setupWeblink','types','uninstallClass','version'};
     }
-    public class CustomNotificationType {
-        public String customNotifTypeName;
-        public String description;
-        public Boolean desktop;
-        public String masterLabel;
-        public Boolean mobile;
-        private String[] customNotifTypeName_type_info = new String[]{'customNotifTypeName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] desktop_type_info = new String[]{'desktop','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] mobile_type_info = new String[]{'mobile','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customNotifTypeName','description','desktop','masterLabel','mobile'};
-    }
-
     public class DescribeMetadataResult {
         public MetadataAPIWrapper.DescribeMetadataObject[] metadataObjects;
         public String organizationNamespace;
@@ -1142,16 +762,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'column','line','numExecutions','time_x'};
     }
-    public class RecommendationAudienceDetail {
-        public String audienceCriteriaType;
-        public String audienceCriteriaValue;
-        public String setupName;
-        private String[] audienceCriteriaType_type_info = new String[]{'audienceCriteriaType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] audienceCriteriaValue_type_info = new String[]{'audienceCriteriaValue','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] setupName_type_info = new String[]{'setupName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'audienceCriteriaType','audienceCriteriaValue','setupName'};
-    }
     public class RetrieveMessage {
         public String fileName;
         public String problem;
@@ -1160,24 +770,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'fileName','problem'};
     }
-    public class EclairMap {
-        public Double boundingBoxBottom;
-        public Double boundingBoxLeft;
-        public Double boundingBoxRight;
-        public Double boundingBoxTop;
-        public String mapLabel;
-        public String mapName;
-        public String projection;
-        private String[] boundingBoxBottom_type_info = new String[]{'boundingBoxBottom','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] boundingBoxLeft_type_info = new String[]{'boundingBoxLeft','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] boundingBoxRight_type_info = new String[]{'boundingBoxRight','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] boundingBoxTop_type_info = new String[]{'boundingBoxTop','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] mapLabel_type_info = new String[]{'mapLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] mapName_type_info = new String[]{'mapName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] projection_type_info = new String[]{'projection','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'boundingBoxBottom','boundingBoxLeft','boundingBoxRight','boundingBoxTop','mapLabel','mapName','projection'};
-    }
     public class deploy_element {
         public String ZipFile;
         public MetadataAPIWrapper.DeployOptions DeployOptions;
@@ -1185,20 +777,6 @@ public class MetadataAPIWrapper {
         private String[] DeployOptions_type_info = new String[]{'DeployOptions','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'ZipFile','DeployOptions'};
-    }
-    public class CustomPermission {
-        public String connectedApp;
-        public String description;
-        public Boolean isLicensed;
-        public String label;
-        public MetadataAPIWrapper.CustomPermissionDependencyRequired[] requiredPermission;
-        private String[] connectedApp_type_info = new String[]{'connectedApp','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] isLicensed_type_info = new String[]{'isLicensed','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] label_type_info = new String[]{'label','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] requiredPermission_type_info = new String[]{'requiredPermission','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'connectedApp','description','isLicensed','label','requiredPermission'};
     }
     public class DeployResult {
         public String canceledBy;
@@ -1280,14 +858,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
     }
-    public class CustomPermissionDependencyRequired {
-        public String customPermission;
-        public Boolean dependency;
-        private String[] customPermission_type_info = new String[]{'customPermission','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] dependency_type_info = new String[]{'dependency','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'customPermission','dependency'};
-    }
     public class checkDeployStatus_element {
         public String asyncProcessId;
         public Boolean includeDetails;
@@ -1302,83 +872,26 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'content'};
     }
-    public class RecommendationDefinitionDetail {
-        public String actionUrl;
-        public String description;
-        public String linkText;
-        public MetadataAPIWrapper.ScheduledRecommendation scheduledRecommendations;
-        public String setupName;
-        public String title;
-        private String[] actionUrl_type_info = new String[]{'actionUrl','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] linkText_type_info = new String[]{'linkText','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] scheduledRecommendations_type_info = new String[]{'scheduledRecommendations','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] setupName_type_info = new String[]{'setupName','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] title_type_info = new String[]{'title','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'actionUrl','description','linkText','scheduledRecommendations','setupName','title'};
-    }
     public class checkDeployStatusResponse_element {
         public MetadataAPIWrapper.DeployResult result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
     }
-    public class EclairGeoData {
-        public MetadataAPIWrapper.EclairMap[] maps;
-        public String masterLabel;
-        private String[] maps_type_info = new String[]{'maps','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'maps','masterLabel'};
-    }
+
     public class listMetadataResponse_element {
         public MetadataAPIWrapper.FileProperties[] result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
     }
-    public class PaymentGatewayProvider {
-        public String apexAdapter;
-        public String comments;
-        public String idempotencySupported;
-        public String masterLabel;
-        private String[] apexAdapter_type_info = new String[]{'apexAdapter','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] comments_type_info = new String[]{'comments','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] idempotencySupported_type_info = new String[]{'idempotencySupported','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'apexAdapter','comments','idempotencySupported','masterLabel'};
-    }
+
     public class describeValueType_element {
         public String type_x;
         private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'type_x'};
     }
-    public class TransactionSecurityNotification {
-        public Boolean inApp;
-        public Boolean sendEmail;
-        public String user_x;
-        private String[] inApp_type_info = new String[]{'inApp','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sendEmail_type_info = new String[]{'sendEmail','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] user_x_type_info = new String[]{'user','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'inApp','sendEmail','user_x'};
-    }
-    public class TopicsForObjects {
-        public Boolean enableTopics;
-        public String entityApiName;
-        private String[] enableTopics_type_info = new String[]{'enableTopics','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] entityApiName_type_info = new String[]{'entityApiName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'enableTopics','entityApiName'};
-    }
-    public class CustomIndex {
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{};
-    }
-
     public class MetadataWrapper {
         public String endpoint_x = 'https://login.salesforce.com/services/Soap/m/53.0';
         public Map<String,String> inputHttpHeaders_x;

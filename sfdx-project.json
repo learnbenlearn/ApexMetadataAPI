@@ -121,7 +121,7 @@
       "default": false
     },
     {
-      "path": "SharingRuleTypes",
+      "path": "SharingTypes",
       "default": false
     },
     {
@@ -138,6 +138,26 @@
     },
     {
       "path": "EmailTypes",
+      "default": false
+    },
+    {
+      "path": "ResourceTypes",
+      "default": false
+    },
+    {
+      "path": "TransactionSecurityTypes",
+      "default": true
+    },
+    {
+      "path": "CustomPermissionTypes",
+      "default": false
+    },
+    {
+      "path": "AnalyticsTypes",
+      "default": false
+    },
+    {
+      "path": "InstalledPackageType",
       "default": false
     }
   ],
