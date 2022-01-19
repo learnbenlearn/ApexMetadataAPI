@@ -2,7 +2,7 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": false
+      "default": true
     },
     {
       "path": "SalesAndServiceCloudTypes",
@@ -29,7 +29,7 @@
       "default": false
     },
     {
-      "path": "KnowledgeTypes",
+      "path": "ChannelTypes",
       "default": false
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "path": "TransactionSecurityTypes",
-      "default": true
+      "default": false
     },
     {
       "path": "CustomPermissionTypes",
@@ -158,6 +158,10 @@
     },
     {
       "path": "InstalledPackageType",
+      "default": false
+    },
+    {
+      "path": "BatchJobTypes",
       "default": false
     }
   ],

@@ -17,22 +17,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'extendedErrorCode'};
     }
-    public class BatchDataSrcFilterCriteria {
-        public Boolean dynamicValue;
-        public String dynamicValueType;
-        public String fieldName;
-        public String fieldValue;
-        public String operator;
-        public Integer sequenceNo;
-        private String[] dynamicValue_type_info = new String[]{'dynamicValue','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] dynamicValueType_type_info = new String[]{'dynamicValueType','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] fieldName_type_info = new String[]{'fieldName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] fieldValue_type_info = new String[]{'fieldValue','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] operator_type_info = new String[]{'operator','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] sequenceNo_type_info = new String[]{'sequenceNo','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'dynamicValue','dynamicValueType','fieldName','fieldValue','operator','sequenceNo'};
-    }
     public class readMetadataResponse_element {
         public MetadataAPIWrapper.ReadResult result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -151,7 +135,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'debugLog'};
     }
-
     public class RunTestsResult {
         public String apexLogId;
         public MetadataAPIWrapper.CodeCoverageResult[] codeCoverage;
@@ -258,30 +241,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'done','id','message','state','statusCode'};
     }
-    public class ChatterExtension {
-        public String compositionComponent;
-        public String description;
-        public String extensionName;
-        public String headerText;
-        public String hoverText;
-        public String icon;
-        public Boolean isProtected;
-        public String masterLabel;
-        public String renderComponent;
-        public String type_x;
-        private String[] compositionComponent_type_info = new String[]{'compositionComponent','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] extensionName_type_info = new String[]{'extensionName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] headerText_type_info = new String[]{'headerText','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] hoverText_type_info = new String[]{'hoverText','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] icon_type_info = new String[]{'icon','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] isProtected_type_info = new String[]{'isProtected','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] renderComponent_type_info = new String[]{'renderComponent','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] type_x_type_info = new String[]{'type','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'compositionComponent','description','extensionName','headerText','hoverText','icon','isProtected','masterLabel','renderComponent','type_x'};
-    }
     public class checkRetrieveStatusResponse_element {
         public MetadataAPIWrapper.RetrieveResult result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -305,30 +264,6 @@ public class MetadataAPIWrapper {
         private String[] String_x_type_info = new String[]{'String','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'String_x'};
-    }
-    public class BatchProcessJobDefinition {
-        public Integer batchSize;
-        public MetadataAPIWrapper.BatchDataSource dataSource;
-        public String description;
-        public String flowApiName;
-        public String flowInputVariable;
-        public String masterLabel;
-        public String processGroup;
-        public Integer retryCount;
-        public Integer retryInterval;
-        public String status;
-        private String[] batchSize_type_info = new String[]{'batchSize','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] dataSource_type_info = new String[]{'dataSource','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] description_type_info = new String[]{'description','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] flowApiName_type_info = new String[]{'flowApiName','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] flowInputVariable_type_info = new String[]{'flowInputVariable','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] masterLabel_type_info = new String[]{'masterLabel','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] processGroup_type_info = new String[]{'processGroup','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] retryCount_type_info = new String[]{'retryCount','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] retryInterval_type_info = new String[]{'retryInterval','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] status_type_info = new String[]{'status','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'batchSize','dataSource','description','flowApiName','flowInputVariable','masterLabel','processGroup','retryCount','retryInterval','status'};
     }
     public class RunTestFailure {
         public String id;
@@ -646,18 +581,6 @@ public class MetadataAPIWrapper {
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'done','errorMessage','errorStatusCode','fileProperties','id','messages','status','success','zipFile'};
     }
-    public class BatchDataSource {
-        public String condition;
-        public String criteria;
-        public MetadataAPIWrapper.BatchDataSrcFilterCriteria[] filters;
-        public String sourceObject;
-        private String[] condition_type_info = new String[]{'condition','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] criteria_type_info = new String[]{'criteria','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
-        private String[] filters_type_info = new String[]{'filters','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] sourceObject_type_info = new String[]{'sourceObject','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'condition','criteria','filters','sourceObject'};
-    }
     public class cancelDeployResponse_element {
         public MetadataAPIWrapper.CancelDeployResult result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
@@ -701,12 +624,6 @@ public class MetadataAPIWrapper {
         private String[] includeZip_type_info = new String[]{'includeZip','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'asyncProcessId','includeZip'};
-    }
-    public class ObjectUsage {
-        public String[] object_x;
-        private String[] object_x_type_info = new String[]{'object','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
-        private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
-        private String[] field_order_type_info = new String[]{'object_x'};
     }
     public class Package_x {
         public String apiAccessLevel;
