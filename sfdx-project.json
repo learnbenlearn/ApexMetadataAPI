@@ -165,7 +165,7 @@
       "default": false
     }
   ],
-  "name": "OOEDemo",
+  "name": "ApexMetadataAPI",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "52.0"
