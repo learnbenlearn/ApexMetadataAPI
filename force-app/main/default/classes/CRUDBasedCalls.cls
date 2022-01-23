@@ -34,7 +34,7 @@ public with sharing class CRUDBasedCalls {
         private String[] field_order_type_info = new String[]{'metadata'};
     }
     public class updateMetadataResponse_element {
-        public MetadataAPIWrapper.SaveResult[] result;
+        public ResultObjects.SaveResult[] result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
@@ -47,7 +47,7 @@ public with sharing class CRUDBasedCalls {
         private String[] field_order_type_info = new String[]{'metadata'};
     }
     public class upsertMetadataResponse_element {
-        public MetadataAPIWrapper.UpsertResult[] result;
+        public ResultObjects.UpsertResult[] result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'0','-1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};
@@ -79,7 +79,7 @@ public with sharing class CRUDBasedCalls {
         private String[] field_order_type_info = new String[]{'type_x','oldFullName','newFullName'};
     }
     public class renameMetadataResponse_element {
-        public MetadataAPIWrapper.SaveResult result;
+        public ResultObjects.SaveResult result;
         private String[] result_type_info = new String[]{'result','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};
         private String[] field_order_type_info = new String[]{'result'};

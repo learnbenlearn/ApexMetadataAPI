@@ -63,7 +63,7 @@ public with sharing class FileBasedCalls {
     }
     public class deploy_element {
         public String ZipFile;
-        public MetadataAPIWrapper.DeployOptions DeployOptions;
+        public FileBasedCalls.DeployOptions DeployOptions;
         private String[] ZipFile_type_info = new String[]{'ZipFile','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] DeployOptions_type_info = new String[]{'DeployOptions','http://soap.sforce.com/2006/04/metadata',null,'1','1','false'};
         private String[] apex_schema_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata','true','false'};

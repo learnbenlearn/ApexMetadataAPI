@@ -84,7 +84,7 @@ public class MetadataAPIWrapper {
         private String CallOptions_hns = 'CallOptions=http://soap.sforce.com/2006/04/metadata';
         private String AllOrNoneHeader_hns = 'AllOrNoneHeader=http://soap.sforce.com/2006/04/metadata';
         private String[] ns_map_type_info = new String[]{'http://soap.sforce.com/2006/04/metadata', 'MetadataAPIWrapper'};
-        public ResultObject.DeleteResult[] deleteMetadata(String type_x,String[] fullNames) {
+        public ResultObjects.DeleteResult[] deleteMetadata(String type_x,String[] fullNames) {
             CRUDBasedCalls.deleteMetadata_element request_x = new CRUDBasedCalls.deleteMetadata_element();
             request_x.type_x = type_x;
             request_x.fullNames = fullNames;
@@ -386,7 +386,7 @@ public class MetadataAPIWrapper {
             return response_x.result;
         }
         public ResultObjects.FileProperties[] listMetadata(UtilityCalls.ListMetadataQuery[] queries,Double asOfVersion) {
-            UtilityCalls.listMetadata_element request_x = new MetadataAPIWrapper.listMetadata_element();
+            UtilityCalls.listMetadata_element request_x = new UtilityCalls.listMetadata_element();
             request_x.queries = queries;
             request_x.asOfVersion = asOfVersion;
             UtilityCalls.listMetadataResponse_element response_x;
@@ -402,7 +402,7 @@ public class MetadataAPIWrapper {
               'listMetadata',
               'http://soap.sforce.com/2006/04/metadata',
               'listMetadataResponse',
-              'MetadataAPIWrapper.listMetadataResponse_element'}
+              'UtilityCalls.listMetadataResponse_element'}
             );
             response_x = response_map_x.get('response_x');
             return response_x.result;
