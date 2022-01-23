@@ -166,7 +166,7 @@ public class MetadataAPIWrapper {
               'describeMetadata',
               'http://soap.sforce.com/2006/04/metadata',
               'describeMetadataResponse',
-              'MetadataAPIWrapper.describeMetadataResponse_element'}
+              'UtilityCalls.describeMetadataResponse_element'}
             );
             response_x = response_map_x.get('response_x');
             return response_x.result;
