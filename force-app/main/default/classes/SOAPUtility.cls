@@ -3,5 +3,6 @@ public with sharing class SOAPUtility {
 
 
         URL.getOrgDomainUrl().getHost();
+        return '';
     }
 }
