@@ -572,6 +572,13 @@
         "ConnectedAppTypes@0.1.0-1": "04t5f000000aQvfAAE",
         "ContentAssetTypes@0.1.0-1": "04t5f000000aQvkAAE",
         "CustomPermissionTypes@0.1.0-1": "04t5f000000aQvpAAE",
-        "DataVisualizationTypes@0.1.0-1": "04t5f000000aQvuAAE"
+        "DataVisualizationTypes@0.1.0-1": "04t5f000000aQvuAAE",
+        "ExperienceSiteTypes@0.1.0-1": "04t5f000000aQwxAAE",
+        "ExternalServiceTypes@0.1.0-1": "04t5f000000aQx2AAE",
+        "FlowTypes@0.1.0-1": "04t5f000000aQx7AAE",
+        "IndustriesTypes@0.1.0-1": "04t5f000000aQxCAAU",
+        "InstalledPackageType@0.1.0-1": "04t5f000000aQxHAAU",
+        "KnowledgeSettingsTypes@0.1.0-1": "04t5f000000aQxMAAU",
+        "LightningBoltTypes@0.1.0-1": "04t5f000000aQxRAAU"
     }
 }
