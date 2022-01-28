@@ -1,6 +1,6 @@
 public class PermissionSet {
     public PermissionSetApplicationVisibility[] applicationVisibilities;
-    public MobileDetailConfig.PermissionSetApexClassAccess[] classAccesses;
+    public PermissionSetApexClassAccess[] classAccesses;
     public PermissionSetCustomMetadataTypeAccess[] customMetadataTypeAccesses;
     public PermissionSetCustomPermissions[] customPermissions;
     public PermissionSetCustomSettingAccess[] customSettingAccesses;

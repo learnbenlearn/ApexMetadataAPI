@@ -14,6 +14,10 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -53,6 +57,10 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PackageVersionType",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -78,6 +86,10 @@
             "dependencies": [
                 {
                     "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ObjectMappingTypes",
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
@@ -118,6 +130,10 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PicklistValueType",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -130,6 +146,10 @@
             "dependencies": [
                 {
                     "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ActionOverrideType",
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
@@ -144,6 +164,10 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ObjectMappingTypes",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -157,6 +181,10 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PackageVersionType",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -169,6 +197,10 @@
             "dependencies": [
                 {
                     "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
@@ -274,6 +306,22 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ActionOverrideType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PicklistValueType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "SharedToType",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -378,6 +426,14 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "SharedToType",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -430,6 +486,10 @@
                 {
                     "package": "CorePackage",
                     "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PackageVersionType",
+                    "versionNumber": "0.1.0.LATEST"
                 }
             ]
         },
@@ -442,6 +502,10 @@
             "dependencies": [
                 {
                     "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "SharingTypes",
                     "versionNumber": "0.1.0.LATEST"
                 }
             ]
@@ -579,6 +643,20 @@
         "IndustriesTypes@0.1.0-1": "04t5f000000aQxCAAU",
         "InstalledPackageType@0.1.0-1": "04t5f000000aQxHAAU",
         "KnowledgeSettingsTypes@0.1.0-1": "04t5f000000aQxMAAU",
-        "LightningBoltTypes@0.1.0-1": "04t5f000000aQxRAAU"
+        "LightningBoltTypes@0.1.0-1": "04t5f000000aQxRAAU",
+        "MultiLanguageSupportTypes@0.1.0-1": "04t5f000000aR7JAAU",
+        "PermissionSetTypes@0.1.0-1": "04t5f000000aR7OAAU",
+        "ProfileTypes@0.1.0-1": "04t5f000000aR7TAAU",
+        "SecuritySettingsTypes@0.1.0-1": "04t5f000000aR7dAAE",
+        "UserTypes@0.1.0-1": "04t5f000000aRCoAAM",
+        "PicklistValueType@0.1.0-1": "04t5f000000aRCtAAM",
+        "SharedToType@0.1.0-1": "04t5f000000aRCyAAM",
+        "ActionOverrideType@0.1.0-1": "04t5f000000aRD3AAM",
+        "FilterItemType@0.1.0-1": "04t5f000000aRD8AAM",
+        "SharingTypes@0.1.0-1": "04t5f000000aRDDAA2",
+        "ObjectMappingTypes@0.1.0-1": "04t5f000000aRDIAA2",
+        "SettingsTypes@0.1.0-1": "04t5f000000aRDNAA2",
+        "DuplicateAndMatchingRulesTypes@0.1.0-1": "04t5f000000aRDSAA2",
+        "TransactionSecuritySettingsTypes@0.1.0-1": "04t5f000000aR7iAAE"
     }
 }
