@@ -657,6 +657,13 @@
         "ObjectMappingTypes@0.1.0-1": "04t5f000000aRDIAA2",
         "SettingsTypes@0.1.0-1": "04t5f000000aRDNAA2",
         "DuplicateAndMatchingRulesTypes@0.1.0-1": "04t5f000000aRDSAA2",
-        "TransactionSecuritySettingsTypes@0.1.0-1": "04t5f000000aR7iAAE"
+        "TransactionSecuritySettingsTypes@0.1.0-1": "04t5f000000aR7iAAE",
+        "PackageVersionType@0.1.0-1": "04t5f000000aRE1AAM",
+        "ApexTypes@0.1.0-1": "04t5f000000aRE6AAM",
+        "EmailTypes@0.1.0-1": "04t5f000000aREBAA2",
+        "ProgrammaticUserInterfaceTypes@0.1.0-1": "04t5f000000aREGAA2",
+        "DataModelTypes@0.1.0-1": "04t5f000000aRELAA2",
+        "SalesAndServiceCloudTypes@0.1.0-1": "04t5f000000aREQAA2",
+        "BasicDeclarativeAutomationTypes@0.1.0-1": "04t5f000000aREVAA2"
     }
 }
