@@ -505,6 +505,14 @@
                     "versionNumber": "0.1.0.LATEST"
                 },
                 {
+                    "package": "SharedToType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
                     "package": "SharingTypes",
                     "versionNumber": "0.1.0.LATEST"
                 }
@@ -664,6 +672,9 @@
         "ProgrammaticUserInterfaceTypes@0.1.0-1": "04t5f000000aREGAA2",
         "DataModelTypes@0.1.0-1": "04t5f000000aRELAA2",
         "SalesAndServiceCloudTypes@0.1.0-1": "04t5f000000aREQAA2",
-        "BasicDeclarativeAutomationTypes@0.1.0-1": "04t5f000000aREVAA2"
+        "BasicDeclarativeAutomationTypes@0.1.0-1": "04t5f000000aREVAA2",
+        "DeclarativeUserInterfaceTypes@0.1.0-1": "04t5f000000aRF9AAM",
+        "SurveyTypes@0.1.0-1": "04t5f000000aRFEAA2",
+        "ResourceTypes@0.1.0-1": "04t5f000000aRFJAA2"
     }
 }
