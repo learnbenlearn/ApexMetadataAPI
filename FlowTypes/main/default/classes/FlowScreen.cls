@@ -9,7 +9,7 @@ public class FlowScreen {
     public String nextOrFinishButtonLabel;
     public String pauseButtonLabel;
     public String pausedText;
-    publicMetadataAPIWrapper.FlowScreenRule[] rules;
+    public FlowScreenRule[] rules;
     public Boolean showFooter;
     public Boolean showHeader;
     private String[] allowBack_type_info = new String[]{'allowBack','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};

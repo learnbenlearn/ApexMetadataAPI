@@ -3,7 +3,7 @@ public class LayoutSection {
     public Boolean detailHeading;
     public Boolean editHeading;
     public String label;
-    public MetadataAPIWrapper.LayoutColumn[] layoutColumns;
+    public LayoutColumn[] layoutColumns;
     public String style;
     private String[] customLabel_type_info = new String[]{'customLabel','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};
     private String[] detailHeading_type_info = new String[]{'detailHeading','http://soap.sforce.com/2006/04/metadata',null,'0','1','false'};

@@ -1,172 +1,680 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    },
-    {
-      "path": "SalesAndServiceCloudTypes",
-      "default": false
-    },
-    {
-      "path": "UserTypes",
-      "default": false
-    },
-    {
-      "path": "AuthorizationTypes",
-      "default": false
-    },
-    {
-      "path": "ApexTypes",
-      "default": false
-    },
-    {
-      "path": "IndustriesTypes",
-      "default": false
-    },
-    {
-      "path": "DuplicateAndMatchingRulesTypes",
-      "default": false
-    },
-    {
-      "path": "ChannelTypes",
-      "default": false
-    },
-    {
-      "path": "ExternalServiceTypes",
-      "default": false
-    },
-    {
-      "path": "SurveyTypes",
-      "default": false
-    },
-    {
-      "path": "DeclarativeUserInterfaceTypes",
-      "default": false
-    },
-    {
-      "path": "SettingsTypes",
-      "default": false
-    },
-    {
-      "path": "ProgrammaticUserInterfaceTypes",
-      "default": false
-    },
-    {
-      "path": "BasicDeclarativeAutomationTypes",
-      "default": false
-    },
-    {
-      "path": "FilterItemType",
-      "default": false 
-    },
-    {
-      "path": "ExperienceSiteTypes",
-      "default": false
-    },
-    {
-      "path": "ObjectMappingTypes",
-      "default": false
-    },
-    {
-      "path": "KnowledgeSettingsTypes",
-      "default": false
-    },
-    {
-      "path": "SecuritySettingsTypes",
-      "default": false
-    },
-    {
-      "path": "FlowTypes",
-      "default": false
-    },
-    {
-      "path": "ConnectedAppTypes",
-      "default": false
-    },
-    {
-      "path": "DataModelTypes",
-      "default": false
-    },
-    {
-      "path": "ActionOverrideType",
-      "default": false
-    },
-    {
-      "path": "SharedToType",
-      "default": false
-    },
-    {
-      "path": "PicklistValueType",
-      "default": false
-    },
-    {
-      "path": "ActionOverrideType",
-      "default": false
-    },
-    {
-      "path": "DataVisualizationTypes",
-      "default": false
-    },
-    {
-      "path": "MultiLanguageSupportTypes",
-      "default": false
-    },
-    {
-      "path": "PermissionSetTypes",
-      "default": false
-    },
-    {
-      "path": "ProfileTypes",
-      "default": false
-    },
-    {
-      "path": "SharingTypes",
-      "default": false
-    },
-    {
-      "path": "ContentAssetTypes",
-      "default": false
-    },
-    {
-      "path": "PackageVersionType",
-      "default": false
-    },
-    {
-      "path": "LightningBoltTypes",
-      "default": false
-    },
-    {
-      "path": "EmailTypes",
-      "default": false
-    },
-    {
-      "path": "ResourceTypes",
-      "default": false
-    },
-    {
-      "path": "TransactionSecurityTypes",
-      "default": false
-    },
-    {
-      "path": "CustomPermissionTypes",
-      "default": false
-    },
-    {
-      "path": "AnalyticsTypes",
-      "default": false
-    },
-    {
-      "path": "InstalledPackageType",
-      "default": false
-    },
-    {
-      "path": "BatchJobTypes",
-      "default": false
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": "SalesAndServiceCloudTypes",
+            "default": false,
+            "package": "SalesAndServiceCloudTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "UserTypes",
+            "default": false,
+            "package": "UserTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "AuthorizationTypes",
+            "default": false,
+            "package": "AuthorizationTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ApexTypes",
+            "default": false,
+            "package": "ApexTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PackageVersionType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "IndustriesTypes",
+            "default": false,
+            "package": "IndustriesTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "DuplicateAndMatchingRulesTypes",
+            "default": false,
+            "package": "DuplicateAndMatchingRulesTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ObjectMappingTypes",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ChannelTypes",
+            "default": false,
+            "package": "ChannelTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ExternalServiceTypes",
+            "default": false,
+            "package": "ExternalServiceTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "SurveyTypes",
+            "default": false,
+            "package": "SurveyTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PicklistValueType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "DeclarativeUserInterfaceTypes",
+            "default": false,
+            "package": "DeclarativeUserInterfaceTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ActionOverrideType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "SettingsTypes",
+            "default": false,
+            "package": "SettingsTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ObjectMappingTypes",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ProgrammaticUserInterfaceTypes",
+            "default": false,
+            "package": "ProgrammaticUserInterfaceTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PackageVersionType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "BasicDeclarativeAutomationTypes",
+            "default": false,
+            "package": "BasicDeclarativeAutomationTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "FilterItemType",
+            "default": false,
+            "package": "FilterItemType",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ExperienceSiteTypes",
+            "default": false,
+            "package": "ExperienceSiteTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ObjectMappingTypes",
+            "default": false,
+            "package": "ObjectMappingTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "KnowledgeSettingsTypes",
+            "default": false,
+            "package": "KnowledgeSettingsTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "SecuritySettingsTypes",
+            "default": false,
+            "package": "SecuritySettingsTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "FlowTypes",
+            "default": false,
+            "package": "FlowTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ConnectedAppTypes",
+            "default": false,
+            "package": "ConnectedAppTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "DataModelTypes",
+            "default": false,
+            "package": "DataModelTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "ActionOverrideType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PicklistValueType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "SharedToType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ActionOverrideType",
+            "default": false,
+            "package": "ActionOverrideType",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "SharedToType",
+            "default": false,
+            "package": "SharedToType",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "PicklistValueType",
+            "default": false,
+            "package": "PicklistValueType",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "DataVisualizationTypes",
+            "default": false,
+            "package": "DataVisualizationTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "MultiLanguageSupportTypes",
+            "default": false,
+            "package": "MultiLanguageSupportTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "PermissionSetTypes",
+            "default": false,
+            "package": "PermissionSetTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ProfileTypes",
+            "default": false,
+            "package": "ProfileTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "SharingTypes",
+            "default": false,
+            "package": "SharingTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "SharedToType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ContentAssetTypes",
+            "default": false,
+            "package": "ContentAssetTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "PackageVersionType",
+            "default": false,
+            "package": "PackageVersionType",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "LightningBoltTypes",
+            "default": false,
+            "package": "LightningBoltTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "EmailTypes",
+            "default": false,
+            "package": "EmailTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "PackageVersionType",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "ResourceTypes",
+            "default": false,
+            "package": "ResourceTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "SharedToType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "FilterItemType",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "SharingTypes",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "TransactionSecurityTypes",
+            "default": false,
+            "package": "TransactionSecurityTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "CustomPermissionTypes",
+            "default": false,
+            "package": "CustomPermissionTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "AnalyticsTypes",
+            "default": false,
+            "package": "AnalyticsTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "InstalledPackageType",
+            "default": false,
+            "package": "InstalledPackageType",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "BatchJobTypes",
+            "default": false,
+            "package": "BatchJobTypes",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "dependencies": [
+                {
+                    "package": "CorePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "CorePackage",
+            "package": "CorePackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "name": "ApexMetadataAPI",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "CorePackage": "0Ho5f000000XZoCCAW",
+        "ActionOverrideType": "0Ho5f000000XZoHCAW",
+        "AnalyticsTypes": "0Ho5f000000XZoMCAW",
+        "ApexTypes": "0Ho5f000000XZoRCAW",
+        "AuthorizationTypes": "0Ho5f000000XZoWCAW",
+        "BasicDeclarativeAutomationTypes": "0Ho5f000000XZobCAG",
+        "BatchJobTypes": "0Ho5f000000XZogCAG",
+        "ChannelTypes": "0Ho5f000000XZolCAG",
+        "ConnectedAppTypes": "0Ho5f000000XZoqCAG",
+        "ContentAssetTypes": "0Ho5f000000XZovCAG",
+        "CustomPermissionTypes": "0Ho5f000000XZp0CAG",
+        "DataModelTypes": "0Ho5f000000XZp5CAG",
+        "DataVisualizationTypes": "0Ho5f000000XZpACAW",
+        "DeclarativeUserInterfaceTypes": "0Ho5f000000XZpFCAW",
+        "DuplicateAndMatchingRulesTypes": "0Ho5f000000XZpKCAW",
+        "EmailTypes": "0Ho5f000000XZpPCAW",
+        "ExperienceSiteTypes": "0Ho5f000000XZpUCAW",
+        "ExternalServiceTypes": "0Ho5f000000XZpZCAW",
+        "FilterItemType": "0Ho5f000000XZpeCAG",
+        "FlowTypes": "0Ho5f000000XZpjCAG",
+        "IndustriesTypes": "0Ho5f000000XZpoCAG",
+        "InstalledPackageType": "0Ho5f000000XZptCAG",
+        "KnowledgeSettingsTypes": "0Ho5f000000XZpyCAG",
+        "LightningBoltTypes": "0Ho5f000000XZq3CAG",
+        "MultiLanguageSupportTypes": "0Ho5f000000XZq8CAG",
+        "ObjectMappingTypes": "0Ho5f000000XZqDCAW",
+        "PackageVersionType": "0Ho5f000000XZqICAW",
+        "PermissionSetTypes": "0Ho5f000000XZqNCAW",
+        "PicklistValueType": "0Ho5f000000XZqSCAW",
+        "ProfileTypes": "0Ho5f000000XZqXCAW",
+        "ProgrammaticUserInterfaceTypes": "0Ho5f000000XZqcCAG",
+        "ResourceTypes": "0Ho5f000000XZqhCAG",
+        "SalesAndServiceCloudTypes": "0Ho5f000000XZqmCAG",
+        "SecuritySettingsTypes": "0Ho5f000000XZqrCAG",
+        "SettingsTypes": "0Ho5f000000XZqwCAG",
+        "SharedToType": "0Ho5f000000XZr1CAG",
+        "SharingTypes": "0Ho5f000000XZr6CAG",
+        "SurveyTypes": "0Ho5f000000XZrBCAW",
+        "TransactionSecurityTypes": "0Ho5f000000XZrGCAW",
+        "UserTypes": "0Ho5f000000XZrLCAW",
+        "CorePackage@0.1.0-1": "04t5f000000aQvGAAU",
+        "AnalyticsTypes@0.1.0-1": "04t5f000000aQvLAAU",
+        "AuthorizationTypes@0.1.0-1": "04t5f000000aQvQAAU",
+        "BatchJobTypes@0.1.0-1": "04t5f000000aQvVAAU",
+        "ChannelTypes@0.1.0-1": "04t5f000000aQvaAAE",
+        "ConnectedAppTypes@0.1.0-1": "04t5f000000aQvfAAE",
+        "ContentAssetTypes@0.1.0-1": "04t5f000000aQvkAAE",
+        "CustomPermissionTypes@0.1.0-1": "04t5f000000aQvpAAE",
+        "DataVisualizationTypes@0.1.0-1": "04t5f000000aQvuAAE",
+        "ExperienceSiteTypes@0.1.0-1": "04t5f000000aQwxAAE",
+        "ExternalServiceTypes@0.1.0-1": "04t5f000000aQx2AAE",
+        "FlowTypes@0.1.0-1": "04t5f000000aQx7AAE",
+        "IndustriesTypes@0.1.0-1": "04t5f000000aQxCAAU",
+        "InstalledPackageType@0.1.0-1": "04t5f000000aQxHAAU",
+        "KnowledgeSettingsTypes@0.1.0-1": "04t5f000000aQxMAAU",
+        "LightningBoltTypes@0.1.0-1": "04t5f000000aQxRAAU",
+        "MultiLanguageSupportTypes@0.1.0-1": "04t5f000000aR7JAAU",
+        "PermissionSetTypes@0.1.0-1": "04t5f000000aR7OAAU",
+        "ProfileTypes@0.1.0-1": "04t5f000000aR7TAAU",
+        "SecuritySettingsTypes@0.1.0-1": "04t5f000000aR7dAAE",
+        "UserTypes@0.1.0-1": "04t5f000000aRCoAAM",
+        "PicklistValueType@0.1.0-1": "04t5f000000aRCtAAM",
+        "SharedToType@0.1.0-1": "04t5f000000aRCyAAM",
+        "ActionOverrideType@0.1.0-1": "04t5f000000aRD3AAM",
+        "FilterItemType@0.1.0-1": "04t5f000000aRD8AAM",
+        "SharingTypes@0.1.0-1": "04t5f000000aRDDAA2",
+        "ObjectMappingTypes@0.1.0-1": "04t5f000000aRDIAA2",
+        "SettingsTypes@0.1.0-1": "04t5f000000aRDNAA2",
+        "DuplicateAndMatchingRulesTypes@0.1.0-1": "04t5f000000aRDSAA2",
+        "TransactionSecuritySettingsTypes@0.1.0-1": "04t5f000000aR7iAAE",
+        "PackageVersionType@0.1.0-1": "04t5f000000aRE1AAM",
+        "ApexTypes@0.1.0-1": "04t5f000000aRE6AAM",
+        "EmailTypes@0.1.0-1": "04t5f000000aREBAA2",
+        "ProgrammaticUserInterfaceTypes@0.1.0-1": "04t5f000000aREGAA2",
+        "DataModelTypes@0.1.0-1": "04t5f000000aRELAA2",
+        "SalesAndServiceCloudTypes@0.1.0-1": "04t5f000000aREQAA2",
+        "BasicDeclarativeAutomationTypes@0.1.0-1": "04t5f000000aREVAA2",
+        "DeclarativeUserInterfaceTypes@0.1.0-1": "04t5f000000aRF9AAM",
+        "SurveyTypes@0.1.0-1": "04t5f000000aRFEAA2",
+        "ResourceTypes@0.1.0-1": "04t5f000000aRFJAA2"
     }
-  ],
-  "name": "ApexMetadataAPI",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
 }
